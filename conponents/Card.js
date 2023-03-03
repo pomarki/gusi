@@ -69,7 +69,22 @@ class Card {
       .querySelector(".card__values-words")
       .querySelector(".card__values-value").textContent = this._words.join(" ");
 
+    this._setEventListeners();
+
     return this._card;
+  }
+
+  _setEventListeners() {
+
+    const openBtn = this._card.querySelector(".card__label-button")
+
+    const mainCard = this._card.querySelector(".card__main")
+
+    openBtn.addEventListener("click", () => {
+      openBtn.classList.toggle("card__label-button_close");
+      mainCard.classList.toggle("card__main_visible")
+    })
+
   }
 }
 

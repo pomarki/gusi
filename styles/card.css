@@ -54,23 +54,30 @@
   font-size: 32px;
 }
 .card__label-button {
+  cursor: pointer;
+  outline: none;
+  width: 31px;
+  height: 7px;
+  margin-bottom: 10px;
   padding: 0;
   border: 0;
-  transition: all .7s ease;
+  transition: all 0.7s ease;
+  background: no-repeat url("../images/open-btn.svg");
 }
 
 .card__label-button_close {
   width: 15px;
   height: 15px;
   background: no-repeat url("../images/close-btn.svg");
-  cursor: pointer;
-  outline: none;
   margin-bottom: 6px;
+}
+
+.card__label-button_open {
 }
 
 .card__label-button_close:hover {
   transform: rotate(45deg);
-  transition: all .7s ease;
+  transition: all 0.7s ease;
 }
 
 .card__author {
@@ -112,7 +119,6 @@
 .card__title_X {
   background-color: var(--rose);
 }
-
 
 .card__title-link {
   font-style: normal;
@@ -171,15 +177,20 @@
 }
 
 .card__main {
+  display: none;
   margin: 10px 0 0 0;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-  display: grid;
   grid-template-columns: 80px 390px;
   grid-template-rows: auto;
 }
+
+.card__main_visible {
+  display: grid;
+}
+
 .card_nav {
   display: flex;
   flex-direction: column;

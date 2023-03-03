@@ -2,7 +2,8 @@
   margin-top: 90px;
   font-family: "Source Code Pro", "Arial", "Helvetica";
   display: grid;
-  grid-template-columns: repeat(2, 470px);
+ /*  grid-template-columns: repeat(2, 470px); */
+ grid-template-columns: 470px;
   grid-template-rows: auto;
   grid-auto-rows: auto;
   gap: 10px;
