@@ -2,6 +2,8 @@ const gusi = [
   {
     id: 0,
     branch: "C",
+    parent: "",
+    child: "",
     index: 72,
     title: "Ольгерд",
     music: "Кар Мэн - Чао, Бамбино!",
@@ -22,6 +24,8 @@ const gusi = [
   {
     id: 1,
     branch: "A",
+    parent: "",
+    child: "",
     index: 78,
     title: "333",
     music: "https://www.youtube.com/watch?v=k3_009Uyz4M",
@@ -42,6 +46,8 @@ const gusi = [
   {
     id: 2,
     branch: "C",
+    parent: "",
+    child: "",
     index: 109,
     title: "Сто сорок четыре дождя Себастиана Вербы",
     music: "https://youtu.be/Zw4s90dyOWI",
@@ -61,7 +67,9 @@ const gusi = [
   },
   {
     id: 3,
-    branch: "b",
+    branch: "B",
+    parent: "",
+    child: "",
     index: 108,
     title: "Гастролёры",
     music: "https://youtube.com/watch?v=3G2itYEgL7U&si=EnSIkaIECMiOmarE",
@@ -82,6 +90,8 @@ const gusi = [
   {
     id: 4,
     branch: "A",
+    parent: "",
+    child: "",
     index: 76,
     title: "Верность традициям",
     music: "https://www.youtube.com/watch?v=p1pT--9cS6E",
@@ -102,6 +112,8 @@ const gusi = [
   {
     id: 5,
     branch: "A",
+    parent: "",
+    child: "",
     index: 75,
     title: "Другого берега",
     music: "https://youtube.com/watch?v=o4YkrUgFqVY",
@@ -122,6 +134,8 @@ const gusi = [
   {
     id: 6,
     branch: "A",
+    parent: "",
+    child: "",
     index: 74,
     title: "За рекой жизни нет",
     music: "нет",
@@ -143,6 +157,8 @@ const gusi = [
   {
     id: 7,
     branch: "C",
+    parent: "",
+    child: "",
     index: 71,
     title: "Записка, найденная в профитроле",
     music: "https://www.youtube.com/watch?v=IvUU8joBb1Q",
@@ -163,6 +179,8 @@ const gusi = [
   {
     id: 8,
     branch: "C",
+    parent: "",
+    child: "",
     index: 107,
     title: "Тихий час",
     music: "https://www.youtube.com/watch?v=BvmfvhcOw5Y",
@@ -183,6 +201,8 @@ const gusi = [
   {
     id: 9,
     branch: "D",
+    parent: "",
+    child: "",
     index: 69,
     title: "Сила каждой басовой струны",
     music: "http://www.youtube.com/watch?v=k1onj96R7YQ",
@@ -203,6 +223,8 @@ const gusi = [
   {
     id: 10,
     branch: "B",
+    parent: "",
+    child: "",
     index: 106,
     title: "Whiskey, Rum I Habanera!",
     music: "https://www.youtube.com/watch?v=qGyPuey-1Jw",
@@ -223,6 +245,8 @@ const gusi = [
   {
     id: 11,
     branch: "B",
+    parent: "",
+    child: "",
     index: 105,
     title: "Антивирус",
     music: "https://www.youtube.com/watch?v=sGcdcVblZ-8",
@@ -243,6 +267,8 @@ const gusi = [
   {
     id: 12,
     branch: "A",
+    parent: "",
+    child: "",
     index: 73,
     title: "Мир на Земле",
     music: "https://www.youtube.com/watch?v=2PYXa046KBY&vl=en",
@@ -264,6 +290,8 @@ const gusi = [
   {
     id: 13,
     branch: "A",
+    parent: "",
+    child: "",
     index: 72,
     title: "И выхода нет",
     music: "https://www.youtube.com/watch?v=3d…",
@@ -284,6 +312,8 @@ const gusi = [
   {
     id: 14,
     branch: "A",
+    parent: "",
+    child: "",
     index: 71,
     title: "Терновник",
     music: "https://www.youtube.com/watch?v=GaHqjStYFCM",
@@ -304,6 +334,8 @@ const gusi = [
   {
     id: 15,
     branch: "A",
+    parent: "",
+    child: "",
     index: 70,
     title: "романсеро прозаика",
     music: "https://www.youtube.com/watch?v=3VgNoKc_Gdw",
@@ -324,6 +356,8 @@ const gusi = [
   {
     id: 16,
     branch: "A",
+    parent: "",
+    child: "",
     index: 70,
     title: "Страшные соломоновы острова",
     music: "https://www.youtube.com/watch?v=3VgNoKc_Gdw",
@@ -344,6 +378,8 @@ const gusi = [
   {
     id: 17,
     branch: "A",
+    parent: "",
+    child: "",
     index: 69,
     title: "Забытые вещи",
     music: "https://www.youtube.com/watch?v=sJhZkXs8ZN0",
@@ -364,6 +400,8 @@ const gusi = [
   {
     id: 18,
     branch: "C",
+    parent: "",
+    child: "",
     index: 70,
     title: "Мальстрём",
     music: "https://music.yandex.ru/album/2918834",
@@ -384,6 +422,8 @@ const gusi = [
   {
     id: 19,
     branch: "B",
+    parent: "",
+    child: "",
     index: 104,
     title: "В неизбежность",
     music: "https://www.youtube.com/watch?v=Gt_aDL4AG3M",
@@ -404,6 +444,8 @@ const gusi = [
   {
     id: 20,
     branch: "E",
+    parent: "",
+    child: "",
     index: 101,
     title: "Через Волгу",
     music: "https://music.yandex.ru/album/2674838",
@@ -424,6 +466,8 @@ const gusi = [
   {
     id: 21,
     branch: "A",
+    parent: "",
+    child: "",
     index: 69,
     title: "ОЖИДАНИЕ",
     music: "https://www.youtube.com/watch?v=sJhZkXs8ZN0",
@@ -443,27 +487,31 @@ const gusi = [
   },
   {
     id: 22,
-    branch: "x",
+    branch: "X",
+    parent: "",
+    child: "",
     index: 0,
     title: "Волосы",
-    music: "",
-    theme: "",
-    location: "",
-    words: [""],
+    music: "нет",
+    theme: "нет",
+    location: "нет",
+    words: ["нет"],
     author: "kprl__tot",
     link: "https://sur-noname.livejournal.com/120498.html",
     weight: 5421,
     date: new Date(2016 - 4 - 27),
     starter: {
-      theme: "",
-      music: "",
-      location: "",
-      words: [""],
+      theme: "нет",
+      music: "нет",
+      location: "нет",
+      words: ["нет"],
     },
   },
   {
     id: 23,
     branch: "A",
+    parent: "",
+    child: "",
     index: 68,
     title: "Corvus corvi lupus est, или Ворон ворону волк",
     music: "http://www.youtube.com/watch?v=gaqH7kJecnM",
@@ -484,6 +532,8 @@ const gusi = [
   {
     id: 24,
     branch: "B",
+    parent: "",
+    child: "",
     index: 103,
     title: "Змеиное вино",
     music: "Maximum the hormone - Zetsubou Billy",
@@ -504,6 +554,8 @@ const gusi = [
   {
     id: 25,
     branch: "B",
+    parent: "",
+    child: "",
     index: 102,
     title: "В форме сердечка",
     music: "https://www.youtube.com/watch?v=i63cgUeSsY0",
@@ -524,6 +576,8 @@ const gusi = [
   {
     id: 26,
     branch: "B",
+    parent: "",
+    child: "",
     index: 101,
     title: "Слон в южную ночь",
     music: "Александр Градский - Как молоды мы были",
@@ -544,6 +598,8 @@ const gusi = [
   {
     id: 27,
     branch: "E",
+    parent: "",
+    child: "",
     index: 100,
     title:
       "Жесткая посадка, или Пустынный рейнджер идет вразнос (True Road Story)",
@@ -565,6 +621,8 @@ const gusi = [
   {
     id: 28,
     branch: "B",
+    parent: "",
+    child: "",
     index: 100,
     title: "Сон в южную ночь",
     music: "https://www.youtube.com/watch?v=ic-QgV3hbaQ",
@@ -585,6 +643,8 @@ const gusi = [
   {
     id: 29,
     branch: "C",
+    parent: "",
+    child: "",
     index: 69,
     title: "Больше нет",
     music: "https://www.youtube.com/watch?v=g7d9KM1plyg",
@@ -605,6 +665,8 @@ const gusi = [
   {
     id: 30,
     branch: "C",
+    parent: "",
+    child: "",
     index: 68,
     title: "Парень со спичками",
     music: "https://www.youtube.com/watch?v=AD09ghDiyAo",
@@ -625,6 +687,8 @@ const gusi = [
   {
     id: 31,
     branch: "C",
+    parent: "",
+    child: "",
     index: 67,
     title: "Тогда мы были романтики",
     music: "Чугунный скороход -- Пи*оры идут",
@@ -645,6 +709,8 @@ const gusi = [
   {
     id: 32,
     branch: "D",
+    parent: "",
+    child: "",
     index: 68,
     title: "Мистер Медведь идет следом",
     music: "Madcon – Beggin",
@@ -665,6 +731,8 @@ const gusi = [
   {
     id: 33,
     branch: "D",
+    parent: "",
+    child: "",
     index: 67,
     title: "...А зори здесь тихие",
     music: "Marc Cohn - Walking In Memphis",
@@ -685,6 +753,8 @@ const gusi = [
   {
     id: 34,
     branch: "D",
+    parent: "",
+    child: "",
     index: 66,
     title:
       "Рецензия: М. Тихомиров «Всё яркое, всё горит» (Арх. «Копальхем-пресс», 2015)",
@@ -703,9 +773,11 @@ const gusi = [
       words: ["блестки, гитара, текила, соль, Карпов"],
     },
   },
-  {
+/*   {
     id: 35,
     branch: "",
+    parent: "",
+    child: "",
     index: 0,
     title: "",
     music: "",
@@ -726,6 +798,8 @@ const gusi = [
   {
     id: 0,
     branch: "",
+    parent: "",
+    child: "",
     index: 0,
     title: "",
     music: "",
@@ -742,7 +816,7 @@ const gusi = [
       location: "",
       words: [""],
     },
-  },
+  }, */
 ];
 
 export { gusi };

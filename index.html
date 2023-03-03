@@ -12,49 +12,52 @@
   <body>
     <header></header>
     <main class="main">
-      <section class="cards">
-        <div class="card">
-          <div class="card__header">
-            <div class="card__label">
-                <p class="card__label-marker">А</p>
-                <button class="card__label-button card__label-button_close"></button>
-            </div>
-            <p class="card__author">TAIPAN_POISON</p>
-            <div class="card__title">
-                <a href="#" class="card__title-link">Рецензия: М. Тихомиров «Всё яркое, всё горит» (Арх. «Копальхем-пресс», 2015)</a>
-            </div>
-            <div class="card__numbers">
-                <p class="card__numbers-item card__numbers-item_actual">132</p>
-                <p class="card__numbers-item">66</p>
-            </div>
+      <section class="cards"></section>
+    </main>
+    <footer></footer>
+    <template id="card">
+      <div class="card">
+        <div class="card__header">
+          <div class="card__label">
+            <p class="card__label-marker"></p>
+            <button
+              class="card__label-button card__label-button_close"
+            ></button>
           </div>
-          <div class="card__main">
-            <div class="card_nav">
-                <button class="card__nav-button card__nav-button_parent"></button>
-                <button class="card__nav-button card__nav-button_child"></button>
+          <p class="card__author"></p>
+          <div class="card__title">
+            <a href="#" class="card__title-link body__link"></a>
+          </div>
+          <div class="card__numbers">
+            <p class="card__numbers-item card__numbers-item_actual"></p>
+            <p class="card__numbers-item card__number-item_current"></p>
+          </div>
+        </div>
+        <div class="card__main">
+          <div class="card_nav">
+            <button class="card__nav-button card__nav-button_parent"></button>
+            <button class="card__nav-button card__nav-button_child"></button>
+          </div>
+          <div class="card__values">
+            <div class="card__values-theme card__values_row">
+              <p class="card__values-title">тема:</p>
+              <p class="card__values-value"></p>
             </div>
-            <div class="card__values">
-                <div class="card__values-theme card__values_row">
-                    <p class="card__values-title">тема:</p>
-                    <p class="card__values-value">Преследование</p>
-                </div>
-                <div class="card__values-location card__values_row">
-                    <p class="card__values-title">локация:</p>
-                    <p class="card__values-value">Ацидалийская равнина</p>
-                </div>
-                <div class="card__values-music card__values_row">
-                    <p class="card__values-title">музыка:</p>
-                    <a href="#" class="card__values-link">https://www.youtube.com/watch?v=4DlBHBZFm1U</a>
-                </div>
-                <div class="card__values-words card__values_row">
-                    <p class="card__values-title">слова:</p>
-                    <p class="card__values-value">оскомина, мутиляция, гэндальф, рутина, мегалит</p>
-                </div>
+            <div class="card__values-location card__values_row">
+              <p class="card__values-title">локация:</p>
+              <p class="card__values-value"></p>
+            </div>
+            <div class="card__values-music card__values_row">
+              <p class="card__values-title">музыка:</p>
+              <a href="#" class="card__values-link body__link"></a>
+            </div>
+            <div class="card__values-words card__values_row">
+              <p class="card__values-title">слова:</p>
+              <p class="card__values-value"></p>
             </div>
           </div>
         </div>
-      </section>
-    </main>
-    <footer></footer>
+      </div>
+    </template>
   </body>
 </html>

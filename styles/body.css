@@ -12,6 +12,12 @@
   --red: #f21b3f;
 
   --orange: #ff9914;
+
+  --yellow: #f0ff14;
+
+  --blue: #4fabff;
+
+  --rose: #f6637c;
 }
 
 html {
@@ -31,4 +37,11 @@ html {
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  
+}
+
+.body__link:hover {
+  background-color: var(--red);
+  color: var(--white);
+  border-radius: 5px;
 }
