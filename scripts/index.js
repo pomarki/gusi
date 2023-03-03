@@ -8,7 +8,13 @@ let arr = gusi.filter((item) => {
   return item.branch === "x";
 });
 
-gusi.forEach((item) => {
+function byField(field) {
+  return (a, b) => a[field] > b[field] ? 1 : -1;
+}
+
+
+
+gusi.sort(byField("date")).forEach((item) => {
   const cardElement = new Card(item);
   const cardItem = cardElement.generateCard();
   cardsContainer.append(cardItem);
