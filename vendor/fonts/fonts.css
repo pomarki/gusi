@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: /* local("Source Code Pro"), */
+    url("SourceCodePro-ExtraLight.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: /* local("Source Code Pro"), */ url("SourceCodePro-Light.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: /* local("Source Code Pro"), */ url("SourceCodePro-Regular.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: /* local("Source Code Pro"),  */url("SourceCodePro-Medium.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Source Code Pro";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: /* local("Source Code Pro"), */ url("SourceCodePro-Black.ttf") format("ttf");
+}
