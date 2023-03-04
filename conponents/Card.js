@@ -1,3 +1,17 @@
+import { Line } from "./Line.js";
+
+/* const lineOptions = {
+  mx: 60,
+  my: 30,
+  qx: 0,
+  qy: 30,
+  fx: 30,
+  fy: 60,
+  color: "var(--red)",
+};
+ */
+
+
 class Card {
   constructor(options) {
     this._id = options.id;
@@ -15,6 +29,7 @@ class Card {
     this._weight = options.weight;
     this._date = options.date;
     this._starter = options.starter;
+    /* this.lineOptions = lineOptions; */
   }
 
   _getTemplate() {
@@ -69,22 +84,27 @@ class Card {
       .querySelector(".card__values-words")
       .querySelector(".card__values-value").textContent = this._words.join(" ");
 
+/*       const lineEl = new Line(this.lineOptions);
+      const lineItem = lineEl.generateSVG();
+      this._card.querySelector(".cards__svg").append(lineItem);   */
+
     this._setEventListeners();
 
     return this._card;
   }
 
   _setEventListeners() {
+    const openBtn = this._card.querySelector(".card__label-button");
 
-    const openBtn = this._card.querySelector(".card__label-button")
+    const mainCard = this._card.querySelector(".card__main");
 
-    const mainCard = this._card.querySelector(".card__main")
+    
 
     openBtn.addEventListener("click", () => {
       openBtn.classList.toggle("card__label-button_close");
-      mainCard.classList.toggle("card__main_visible")
-    })
-
+      mainCard.classList.toggle("card__main_visible");
+      
+    });
   }
 }
 

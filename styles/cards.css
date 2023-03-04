@@ -2,24 +2,28 @@
   margin-top: 90px;
   font-family: "Source Code Pro", "Arial", "Helvetica";
   display: grid;
-  grid-template-columns: 60px, 470px;
-  grid-template-rows: auto;
-  grid-auto-rows: 60px;
+  grid-template-columns: 530px;
+  grid-template-rows: max-content;
+  grid-auto-rows: max-content;
   background-color: var(--light-gray);
 }
 
 .cards__svg {
-  grid-column-start: 1;
-  grid-column-end: 2;
+
 }
 
 .cards__cards-container {
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: grid;
+  grid-template-columns: 60px 470px;
+  grid-template-rows: max-content;
+  grid-auto-rows: max-content;
 }
 
 .cards__svg-item {
-  width: 60px;
-  min-height: 60px;
+  width: 58px;
+  height: 100%;
+  border: 1px black solid;
   background-color: tomato;
 }
