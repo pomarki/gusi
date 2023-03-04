@@ -6,30 +6,9 @@ import {
   forwardBtn,
   labelContainer,
   labelLatter,
+  cardsContainer,
 } from "../scripts/const.js";
-
-const canvas = document.querySelector(".canvas");
-const cardsContainer = document.querySelector(".cards__cards-container");
-
-let arr = gusi.filter((item) => {
-  return item.branch === "x";
-});
-
-function byField(field) {
-  return (a, b) => (a[field] > b[field] ? 1 : -1);
-}
-
-/* gusi.sort(byField("date")).forEach((item) => {
-  const cardElement = new Card(item);
-  const cardItem = cardElement.generateCard();
-  cardsContainer.append(cardItem);
-}); */
-
-const filterCards = (el, arr) => {
-  let result = arr.filter((item) => {
-    item.branch === el;
-  });
-};
+import { byField, filterCards } from "./utils.js";
 
 const renderCards = (arr) => {
   cardsContainer.innerHTML = "";
@@ -44,6 +23,20 @@ renderCards(gusi);
 
 let actualLetter = 0;
 const letterArr = Object.entries(letters);
+
+const getActualIndex = (direction, arr) => {
+  let interimIndex = actualLetter;
+  direction ? (interimIndex += 1) : (interimIndex -= 1);
+
+  if (interimIndex > arr.length - 1) {
+    interimIndex = 0;
+  }
+  if (interimIndex < 0) {
+    interimIndex = arr.length - 1;
+  }
+  actualLetter = interimIndex;
+  return actualLetter;
+};
 
 function sliderLetter(direction, arr) {
   let interimIndex = actualLetter;

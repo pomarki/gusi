@@ -1,15 +1,4 @@
-import { Line } from "./Line.js";
 import { letters } from "../scripts/const.js";
-/* const lineOptions = {
-  mx: 60,
-  my: 30,
-  qx: 0,
-  qy: 30,
-  fx: 30,
-  fy: 60,
-  color: "var(--red)",
-};
- */
 
 class Card {
   constructor(options) {
@@ -29,7 +18,6 @@ class Card {
     this._date = options.date;
     this._starter = options.starter;
     this._letter = letters[options.branch];
-    /* this.lineOptions = lineOptions; */
   }
 
   _getTemplate() {
@@ -91,10 +79,6 @@ class Card {
     this._card
       .querySelector(".card__values-words")
       .querySelector(".card__values-value").textContent = this._words.join(" ");
-
-    /*       const lineEl = new Line(this.lineOptions);
-      const lineItem = lineEl.generateSVG();
-      this._card.querySelector(".cards__svg").append(lineItem);   */
 
     this._setEventListeners();
 
