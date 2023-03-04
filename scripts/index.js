@@ -2,7 +2,7 @@ import { gusi } from "../date/myDate.js";
 import { Card } from "../conponents/Card.js";
 
 const canvas = document.querySelector(".canvas");
-const cardsContainer = document.querySelector(".cards");
+const cardsContainer = document.querySelector(".cards__cards-container");
 
 let arr = gusi.filter((item) => {
   return item.branch === "x";

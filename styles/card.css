@@ -2,18 +2,20 @@
   display: grid;
   grid-template-columns: 470px;
   grid-template-rows: 60px auto;
-  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
-  background-color: var(--white);
+  min-height: 60px;
+  padding-bottom: 10px;
 }
 .card__header {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
-
   display: grid;
   grid-template-columns: 35px 115px 295px 25px;
   grid-template-rows: 60px;
+  background-color: var(--white);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
+  z-index: 2;
 }
 .card__label {
   color: var(--white);
@@ -56,18 +58,16 @@
 .card__label-button {
   cursor: pointer;
   outline: none;
-  width: 31px;
-  height: 7px;
-  margin-bottom: 10px;
+  width: 15px;
+  height: 15px;
+  margin-bottom: 6px;
   padding: 0;
   border: 0;
   transition: all 0.7s ease;
-  background: no-repeat url("../images/open-btn.svg");
+  background: no-repeat url("../images/open-btn-new.svg");
 }
 
 .card__label-button_close {
-  width: 15px;
-  height: 15px;
   background: no-repeat url("../images/close-btn.svg");
   margin-bottom: 6px;
 }
@@ -178,13 +178,16 @@
 
 .card__main {
   display: none;
-  margin: 10px 0 0 0;
+  padding-top: 10px;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
   grid-template-columns: 80px 390px;
   grid-template-rows: auto;
+  background-color: var(--white);
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
+  z-index: 1;
 }
 
 .card__main_visible {
