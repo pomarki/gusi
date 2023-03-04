@@ -65,7 +65,6 @@
   align-items: center;
   grid-template-columns: 15px 35px 15px;
   grid-template-rows: 60px max-content;
-
   gap: 10px;
 }
 
@@ -84,11 +83,14 @@
   background: no-repeat url(../images/forward-btn.svg);
 }
 
-.header__labels-letter {
+.header__labels-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 35px;
   height: 60px;
-  background-color: var(--orange);
   cursor: default;
+  background-color: var(--rose);
 }
 
 .header__labels-letter {
@@ -97,9 +99,31 @@
   font-weight: 400;
   font-size: 32px;
   color: var(--white);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
+}
+
+.header__labels_A {
+  background-color: var(--light-green);
+}
+
+.header__labels_B {
+  background-color: var(--turquoise);
+}
+
+.header__labels_C {
+  background-color: var(--orange);
+}
+
+.header__labels_D {
+  background-color: var(--green);
+}
+
+.header__labels_E {
+  background-color: var(--blue);
+}
+
+.header__labels_X {
+  background-color: var(--rose);
 }
 
 .header__info {

@@ -1,5 +1,5 @@
 import { Line } from "./Line.js";
-
+import { letters } from "../scripts/const.js";
 /* const lineOptions = {
   mx: 60,
   my: 30,
@@ -28,6 +28,7 @@ class Card {
     this._weight = options.weight;
     this._date = options.date;
     this._starter = options.starter;
+    this._letter = letters[options.branch];
     /* this.lineOptions = lineOptions; */
   }
 
@@ -40,8 +41,12 @@ class Card {
     this._card = this._getTemplate();
 
     this._card.querySelector(".card").id = this._id;
-    this._card.querySelector(".card__nav-button_parent").href = `#${this._parent}`;
-    this._card.querySelector(".card__nav-button_child").href = `#${this._child}`;
+    this._card.querySelector(
+      ".card__nav-button_parent"
+    ).href = `#${this._parent}`;
+    this._card.querySelector(
+      ".card__nav-button_child"
+    ).href = `#${this._child}`;
 
     this._card
       .querySelector(".card__label")
@@ -58,7 +63,7 @@ class Card {
       .querySelector(".card__values-value")
       .classList.add(`card__values-value_${this._branch}`);
 
-    this._card.querySelector(".card__label-marker").textContent = this._branch;
+    this._card.querySelector(".card__label-marker").textContent = this._letter;
     this._card.querySelector(".card__author").textContent = this._author;
     this._card.querySelector(".card__title-link").textContent = this._title;
     this._card.querySelector(".card__title-link").href = this._link;
