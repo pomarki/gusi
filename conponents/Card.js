@@ -11,7 +11,6 @@ import { Line } from "./Line.js";
 };
  */
 
-
 class Card {
   constructor(options) {
     this._id = options.id;
@@ -39,6 +38,10 @@ class Card {
 
   generateCard() {
     this._card = this._getTemplate();
+
+    this._card.querySelector(".card").id = this._id;
+    this._card.querySelector(".card__nav-button_parent").href = `#${this._parent}`;
+    this._card.querySelector(".card__nav-button_child").href = `#${this._child}`;
 
     this._card
       .querySelector(".card__label")
@@ -84,7 +87,7 @@ class Card {
       .querySelector(".card__values-words")
       .querySelector(".card__values-value").textContent = this._words.join(" ");
 
-/*       const lineEl = new Line(this.lineOptions);
+    /*       const lineEl = new Line(this.lineOptions);
       const lineItem = lineEl.generateSVG();
       this._card.querySelector(".cards__svg").append(lineItem);   */
 
@@ -95,15 +98,11 @@ class Card {
 
   _setEventListeners() {
     const openBtn = this._card.querySelector(".card__label-button");
-
     const mainCard = this._card.querySelector(".card__main");
-
-    
 
     openBtn.addEventListener("click", () => {
       openBtn.classList.toggle("card__label-button_close");
       mainCard.classList.toggle("card__main_visible");
-      
     });
   }
 }

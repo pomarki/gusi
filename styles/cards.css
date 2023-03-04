@@ -1,11 +1,11 @@
 .cards {
-  margin-top: 90px;
+  margin-top: 140px;
   font-family: "Source Code Pro", "Arial", "Helvetica";
   display: grid;
   grid-template-columns: 530px;
   grid-template-rows: max-content;
   grid-auto-rows: max-content;
-  background-color: var(--light-gray);
+  /* background-color: var(--light-gray); */
 }
 
 .cards__svg {

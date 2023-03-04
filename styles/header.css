@@ -1,0 +1,124 @@
+.header {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  font-family: "Source Code Pro", "Arial", "Helvetica";
+  width: 100%;
+  height: 100px;
+  background-color: var(--white);
+  z-index: 3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header__container {
+  width: 1024px;
+  height: 100px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 282px 85px 405px 252px;
+}
+
+.header__logo {
+  justify-self: start;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 33px;
+}
+
+.header__logo-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  color: var(--red);
+  margin: 0;
+}
+
+.header__subtitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  color: var(--gray);
+  margin: 0;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.header__logo-subtitle {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  color: var(--gray);
+  margin: 0;
+}
+
+.header__labels {
+  width: 85px;
+  height: 80px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 15px 35px 15px;
+  grid-template-rows: 60px max-content;
+
+  gap: 10px;
+}
+
+.header__btn {
+  width: 15px;
+  height: 15px;
+  border: 0;
+  cursor: pointer;
+}
+
+.hearer__back-btn {
+  background: no-repeat url(../images/back-btn.svg);
+}
+
+.hearer__forward-btn {
+  background: no-repeat url(../images/forward-btn.svg);
+}
+
+.header__labels-letter {
+  width: 35px;
+  height: 60px;
+  background-color: var(--orange);
+  cursor: default;
+}
+
+.header__labels-letter {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__info {
+  justify-self: end;
+}
+
+.header__info-item {
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.header__WTF {
+  margin: 0 33px 0 0;
+  justify-self: end;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  color: var(--gray);
+  text-transform: uppercase;
+}

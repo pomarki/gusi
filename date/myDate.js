@@ -157,7 +157,7 @@ const gusi = [
   {
     id: 7,
     branch: "C",
-    parent: "",
+    parent: 18,
     child: 0,
     index: 71,
     title: "Записка, найденная в профитроле",
@@ -401,7 +401,7 @@ const gusi = [
     id: 18,
     branch: "C",
     parent: "",
-    child: "",
+    child: 7,
     index: 70,
     title: "Мальстрём",
     music: "https://music.yandex.ru/album/2918834",
@@ -751,10 +751,10 @@ const gusi = [
     },
   },
   {
-    id: 33,
+    id: 34,
     branch: "D",
     parent: "",
-    child: 34,
+    child: 33,
     index: 66,
     title:
       "Рецензия: М. Тихомиров «Всё яркое, всё горит» (Арх. «Копальхем-пресс», 2015)",
