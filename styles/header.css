@@ -126,6 +126,10 @@
   background-color: var(--rose);
 }
 
+.header__labels_ALL {
+  background-color: var(--black);
+}
+
 .header__info {
   justify-self: end;
 }

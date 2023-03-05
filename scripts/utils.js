@@ -2,14 +2,28 @@ const byField = (field) => {
   return (a, b) => (a[field] > b[field] ? 1 : -1);
 };
 
-const filterCards = (el, arr) => {
+/* const filterCards = (el, arr) => {
   let result = arr.filter((item) => {
     item.branch === el;
   });
+
+  return result;
+
+}; */
+
+const filterCards = (el, arr) => {
+  if (el === "ALL") {
+    return arr;
+  }
+
+  let result = arr.filter((i) => i.branch === el);
+
+  return result;
 };
 
 const renderCards = (arr, container, cardClass) => {
   container.innerHTML = "";
+
   arr.sort(byField("date")).forEach((item) => {
     const cardElement = new cardClass(item);
     const cardItem = cardElement.generateCard();

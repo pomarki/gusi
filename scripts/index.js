@@ -11,12 +11,12 @@ import {
 } from "../scripts/const.js";
 import { byField, filterCards, renderCards, renderLabel } from "./utils.js";
 
-let actualLetter = 0;
+let actualLetter = 6;
 
-renderCards(gusi, cardsContainer, Card);
-renderLabel(5, letterArr, labelLatter, labelContainer);
+let mainCardsArr = gusi.slice();
 
-//letterArr = ["A, А", "B, Б", "C, В", "D, Г", "E, Д", "X, X"]
+renderLabel(6, letterArr, labelLatter, labelContainer);
+renderCards(mainCardsArr, cardsContainer, Card);
 
 const getActualIndex = (direction, arr) => {
   let interimIndex = actualLetter;
@@ -29,7 +29,7 @@ const getActualIndex = (direction, arr) => {
     interimIndex = arr.length - 1;
   }
   actualLetter = interimIndex;
-  return actualLetter;
+  return interimIndex;
 };
 
 backBtn.addEventListener("click", () => {
@@ -38,6 +38,12 @@ backBtn.addEventListener("click", () => {
     letterArr,
     labelLatter,
     labelContainer
+  );
+
+  renderCards(
+    filterCards(letterArr[actualLetter][0], mainCardsArr),
+    cardsContainer,
+    Card
   );
 });
 
@@ -48,4 +54,11 @@ forwardBtn.addEventListener("click", () => {
     labelLatter,
     labelContainer
   );
+
+  renderCards(
+    filterCards(letterArr[actualLetter][0], mainCardsArr),
+    cardsContainer,
+    Card
+  );
+
 });
