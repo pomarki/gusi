@@ -23,6 +23,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  background-color: var(--gray);
 }
 
 .card__label_A {
