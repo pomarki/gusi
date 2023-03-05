@@ -1,11 +1,11 @@
 @import url(../vendor/fonts/fonts.css);
 @import url(../vendor/normalize.css);
-@import url(body.css);
-@import url(canvas.css);
-@import url(cards.css);
-@import url(card.css);
-@import url(main.css);
-@import url(header.css);
+@import url(../pages/body.css);
+@import url(../pages/canvas.css);
+@import url(../pages/card.css);
+@import url(../pages/cards.css);
+@import url(../pages/header.css);
+@import url(../pages/main.css);
 
 
 
