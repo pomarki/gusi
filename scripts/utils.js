@@ -2,15 +2,6 @@ const byField = (field) => {
   return (a, b) => (a[field] > b[field] ? 1 : -1);
 };
 
-/* const filterCards = (el, arr) => {
-  let result = arr.filter((item) => {
-    item.branch === el;
-  });
-
-  return result;
-
-}; */
-
 const filterCards = (el, arr) => {
   if (el === "ALL") {
     return arr;
@@ -43,4 +34,11 @@ const renderLabel = (
   labelContainer.classList = labelClass;
 };
 
-export { byField, filterCards, renderCards, renderLabel };
+const renderTitle = (letterIndex, letterArr, titlesObj, titleContainer) => {
+  titleContainer.innerHTML = "";
+  let titleText = titlesObj[letterArr[letterIndex][0]];
+  titleContainer.classList = `header__info-item header__info-item_${letterArr[letterIndex][0]}`;
+  titleContainer.textContent = titleText;
+};
+
+export { byField, filterCards, renderCards, renderLabel, renderTitle };

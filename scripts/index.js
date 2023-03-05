@@ -1,15 +1,16 @@
 import { gusi } from "../date/myDate.js";
 import { Card } from "../conponents/Card.js";
 import {
-  letters,
   backBtn,
   forwardBtn,
   labelContainer,
   labelLatter,
   cardsContainer,
   letterArr,
+  titleWords,
+  headerTitle,
 } from "../scripts/const.js";
-import { byField, filterCards, renderCards, renderLabel } from "./utils.js";
+import { filterCards, renderCards, renderLabel, renderTitle } from "./utils.js";
 
 let actualLetter = 6;
 
@@ -17,6 +18,7 @@ let mainCardsArr = gusi.slice();
 
 renderLabel(6, letterArr, labelLatter, labelContainer);
 renderCards(mainCardsArr, cardsContainer, Card);
+renderTitle(actualLetter, letterArr, titleWords, headerTitle)
 
 const getActualIndex = (direction, arr) => {
   let interimIndex = actualLetter;
@@ -45,6 +47,8 @@ backBtn.addEventListener("click", () => {
     cardsContainer,
     Card
   );
+
+  renderTitle(actualLetter, letterArr, titleWords, headerTitle)
 });
 
 forwardBtn.addEventListener("click", () => {
@@ -61,4 +65,5 @@ forwardBtn.addEventListener("click", () => {
     Card
   );
 
+  renderTitle(actualLetter, letterArr, titleWords, headerTitle)
 });
