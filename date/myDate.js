@@ -13,7 +13,7 @@ const gusi = [
     author: "helgvar",
     link: "https://sur-noname.livejournal.com/141080.html",
     weight: 1990,
-    date: new Date(2023 - 15 - 2),
+    date: new Date("2023, 2, 15"),
     starter: {
       theme: "дышать не отворачиваясь",
       music: "https://www.youtube.com/watch?v=MGgDdU1BYsA",
@@ -35,7 +35,7 @@ const gusi = [
     author: "helgvar",
     link: "https://sur-noname.livejournal.com/140840.html",
     weight: 1999,
-    date: new Date(2023 - 1 - 2),
+    date: new Date("2023, 1, 2"),
     starter: {
       theme: "Придёт серенький",
       music: "https://www.youtube.com/watch?v=UNA9nO0QYE4",
@@ -57,7 +57,7 @@ const gusi = [
     author: "helgvar",
     link: "https://sur-noname.livejournal.com/140758.html",
     weight: 1988,
-    date: new Date(2023 - 1 - 2),
+    date: new Date("2023, 1, 2"),
     starter: {
       theme: "и в печали, и в радости",
       music: "https://www.youtube.com/watch?v=UR7yvOEFJ6c",
@@ -79,7 +79,7 @@ const gusi = [
     author: "pomarki",
     link: "https://sur-noname.livejournal.com/140410.html",
     weight: 2011,
-    date: new Date(2023 - 1 - 31),
+    date: new Date("2023, 1, 31"),
     starter: {
       theme: "перекуси поводок",
       music: "https://youtu.be/Zw4s90dyOWI",
@@ -101,7 +101,7 @@ const gusi = [
     author: "buhrun",
     link: "https://sur-noname.livejournal.com/139859.html",
     weight: 2319,
-    date: new Date(2023 - 1 - 29),
+    date: new Date("2023, 1, 29"),
     starter: {
       theme: "Кончился хлебушек, а ты живи",
       music: "https://m.youtube.com/watch?v=DGWoIz5B7VM",
@@ -123,7 +123,7 @@ const gusi = [
     author: "somesin",
     link: "https://sur-noname.livejournal.com/139558.html",
     weight: 1992,
-    date: new Date(2023 - 1 - 29),
+    date: new Date("2023, 1, 29"),
     starter: {
       theme: "После стольких лет",
       music: "https://www.youtube.com/watch?v=p1pT--9cS6E",
@@ -146,7 +146,7 @@ const gusi = [
     author: "taipan_poison",
     link: "https://sur-noname.livejournal.com/139027.html",
     weight: 4883,
-    date: new Date(2023 - 1 - 21),
+    date: new Date("2023, 1, 21"),
     starter: {
       theme: "бессмертие",
       music: "https://youtube.com/watch?v=o4YkrUgFqVY",
@@ -168,7 +168,7 @@ const gusi = [
     author: "taipan_poison",
     link: "https://sur-noname.livejournal.com/138923.html",
     weight: 2347,
-    date: new Date(2023 - 1 - 19),
+    date: new Date("2023, 1, 19"),
     starter: {
       theme: "ставка больше чем всё",
       music: "https://youtube.com/watch?v=JRa2bO1NJ34&si=EnSIkaIECMiOmarE",
@@ -190,7 +190,7 @@ const gusi = [
     author: "taipan_poison",
     link: "https://sur-noname.livejournal.com/138716.html",
     weight: 2786,
-    date: new Date(2023 - 1 - 19),
+    date: new Date("2023, 1, 19"),
     starter: {
       theme: "хорошо в деревне летом",
       music: "https://youtube.com/watch?v=3G2itYEgL7U&si=EnSIkaIECMiOmarE",
@@ -212,7 +212,7 @@ const gusi = [
     author: "BUHRUN",
     link: "https://sur-noname.livejournal.com/133803.html",
     weight: 3054,
-    date: new Date(2018 - 12 - 16),
+    date: new Date("2018, 12, 16"),
     starter: {
       theme: "Бесстыдство",
       music: "https://youtu.be/Hfv4aarV7oQ",
@@ -234,7 +234,7 @@ const gusi = [
     author: "ZLOY_BABAY",
     link: "https://sur-noname.livejournal.com/128438.html",
     weight: 5273,
-    date: new Date(2017 - 12 - 7),
+    date: new Date("2017, 12, 7"),
     starter: {
       theme: "Хуема",
       music: "https://www.youtube.com/watch?v=BvmfvhcOw5Y",
@@ -256,7 +256,7 @@ const gusi = [
     author: "KORULAG",
     link: "https://sur-noname.livejournal.com/128112.html",
     weight: 1983,
-    date: new Date(2017 - 10 - 18),
+    date: new Date("2017, 10, 18"),
     starter: {
       theme: "Пираты Интернетского моря",
       music: "https://www.youtube.com/watch?v=qGyPuey-1Jw",
@@ -278,7 +278,7 @@ const gusi = [
     author: "KORULAG",
     link: "https://sur-noname.livejournal.com/127781.html",
     weight: 1982,
-    date: new Date(2017 - 10 - 18),
+    date: new Date("2017, 10, 18"),
     starter: {
       theme: "Жизнь не удалась, но ещё есть время начать вторую",
       music: "https://www.youtube.com/watch?v=42MAk4_DBFc",
@@ -301,7 +301,7 @@ const gusi = [
     author: "STARFLEAR",
     link: "https://sur-noname.livejournal.com/127585.html",
     weight: 1072,
-    date: new Date(2017 - 4 - 5),
+    date: new Date("2017, 4, 5"),
     starter: {
       theme: "Сражение",
       music: "https://www.youtube.com/watch?v=2PYXa046KBY",
@@ -323,7 +323,7 @@ const gusi = [
     author: "ALEXGARDT",
     link: "https://sur-noname.livejournal.com/127426.html",
     weight: 2170,
-    date: new Date(2017 - 3 - 14),
+    date: new Date("2017, 3, 14"),
     starter: {
       theme: "охота",
       music: "https://www.youtube.com/watch?v=3dyNbMVfeyM",
@@ -345,7 +345,7 @@ const gusi = [
     author: "ВЛАД КОПЕРНИН",
     link: "https://sur-noname.livejournal.com/127132.html",
     weight: 1579,
-    date: new Date(2017 - 3 - 11),
+    date: new Date("2017, 3, 11"),
     starter: {
       theme: "",
       music: "",
@@ -367,7 +367,7 @@ const gusi = [
     author: "ВЛАД КОПЕРНИН",
     link: "https://sur-noname.livejournal.com/126909.html",
     weight: 1879,
-    date: new Date(2017 - 3 - 11),
+    date: new Date("2017, 3, 11"),
     starter: {
       theme: "Лев весной",
       music: "https://www.youtube.com/watch?v=GaHqjStYFCM",
@@ -389,7 +389,7 @@ const gusi = [
     author: "PATOLOGRAFER",
     link: "https://sur-noname.livejournal.com/126543.html",
     weight: 2909,
-    date: new Date(2017 - 2 - 21),
+    date: new Date("2017, 2, 21"),
     starter: {
       theme: "Прорыв",
       music: "https://www.youtube.com/watch?v=3VgNoKc_Gdw",
@@ -411,7 +411,7 @@ const gusi = [
     author: "PATOLOGRAFER",
     link: "https://sur-noname.livejournal.com/123319.html",
     weight: 8968,
-    date: new Date(2017 - 1 - 30),
+    date: new Date("2017, 1, 30"),
     starter: {
       theme: "Расстояния",
       music: "https://www.youtube.com/watch?v=IvUU8joBb1Q",
@@ -433,7 +433,7 @@ const gusi = [
     author: "FYORNE",
     link: "https://sur-noname.livejournal.com/121828.html",
     weight: 2079,
-    date: new Date(2016 - 11 - 15),
+    date: new Date("2016, 11, 15"),
     starter: {
       theme: "Дисфункция",
       music: "https://www.youtube.com/watch?v=sGcdcVblZ-8",
@@ -455,7 +455,7 @@ const gusi = [
     author: "TAIPAN_POISON",
     link: "https://sur-noname.livejournal.com/121526.html",
     weight: 2942,
-    date: new Date(2016 - 7 - 25),
+    date: new Date("2016, 7, 25"),
     starter: {
       theme: "мы никогда не умрем",
       music: "https://www.youtube.com/watch?v=ejEd4Jm9u2w",
@@ -477,7 +477,7 @@ const gusi = [
     author: "TWEMON",
     link: "https://sur-noname.livejournal.com/121093.html",
     weight: 3022,
-    date: new Date(2016 - 7 - 18),
+    date: new Date("2016, 7, 18"),
     starter: {
       theme: "Бананы - дерьмо",
       music: "https://www.youtube.com/watch?v=g52ZXOcSIug",
@@ -499,7 +499,7 @@ const gusi = [
     author: "kprl__tot",
     link: "https://sur-noname.livejournal.com/120498.html",
     weight: 5421,
-    date: new Date(2016 - 4 - 27),
+    date: new Date("2016, 4, 27"),
     starter: {
       theme: "нет",
       music: "нет",
@@ -521,7 +521,7 @@ const gusi = [
     author: "PATOLOGRAFER",
     link: "https://sur-noname.livejournal.com/116793.html",
     weight: 9603,
-    date: new Date(2016 - 2 - 28),
+    date: new Date("2016, 2, 28"),
     starter: {
       theme: "Ожидание",
       music: "https://www.youtube.com/watch?v=sJhZkXs8ZN0",
@@ -543,7 +543,7 @@ const gusi = [
     author: "TAIPAN_POISON",
     link: "https://sur-noname.livejournal.com/116330.html",
     weight: 2305,
-    date: new Date(2016 - 2 - 25),
+    date: new Date("2016, 2, 25"),
     starter: {
       theme: "в бегах",
       music: "https://www.youtube.com/watch?v=Gt_aDL4AG3M",
@@ -565,7 +565,7 @@ const gusi = [
     author: "LESYA_LES",
     link: "https://sur-noname.livejournal.com/116065.html",
     weight: 1983,
-    date: new Date(2016 - 2 - 25),
+    date: new Date("2016, 2, 25"),
     starter: {
       theme: "Вчера не было",
       music: "https://youtu.be/lEFHwV9J7pY",
@@ -587,7 +587,7 @@ const gusi = [
     author: "IISUS",
     link: "https://sur-noname.livejournal.com/115614.html",
     weight: 4221,
-    date: new Date(2016 - 2 - 24),
+    date: new Date("2016, 2, 24"),
     starter: {
       theme: "Драма в драмкружке",
       music: "https://www.youtube.com/watch?v=i63cgUeSsY0",
@@ -610,7 +610,7 @@ const gusi = [
     author: "PATOLOGRAFER",
     link: "https://sur-noname.livejournal.com/115373.html",
     weight: 6875,
-    date: new Date(2016 - 2 - 24),
+    date: new Date("2016, 2, 24"),
     starter: {
       theme: "Анестезия",
       music: "https://www.youtube.com/watch?v=j7IMSuVHmJs",
@@ -632,7 +632,7 @@ const gusi = [
     author: "ZLOY_BABAY",
     link: "https://sur-noname.livejournal.com/115119.html",
     weight: 2292,
-    date: new Date(2016 - 2 - 24),
+    date: new Date("2016, 2, 24"),
     starter: {
       theme: "припомнить всё",
       music: "Александр Градский - Как молоды мы были",
@@ -654,7 +654,7 @@ const gusi = [
     author: "PATOLOGRAFER",
     link: "https://sur-noname.livejournal.com/114887.html",
     weight: 5188,
-    date: new Date(2016 - 2 - 18),
+    date: new Date("2016, 2, 18"),
     starter: {
       theme: "Конкуренция",
       music: "https://music.yandex.ru/album/2918834",
@@ -676,7 +676,7 @@ const gusi = [
     author: "SOMESIN",
     link: "https://sur-noname.livejournal.com/113938.html",
     weight: 1986,
-    date: new Date(2016 - 1 - 17),
+    date: new Date("2016, 1, 17"),
     starter: {
       theme: "нет худа, нет добра",
       music: "https://www.youtube.com/watch?v=g7d9KM1plyg",
@@ -698,7 +698,7 @@ const gusi = [
     author: "TAIPAN_POISON",
     link: "https://sur-noname.livejournal.com/113914.html",
     weight: 2326,
-    date: new Date(2016 - 1 - 14),
+    date: new Date("2016, 1, 14"),
     starter: {
       theme: "куда ни пойдешь - всюду лес",
       music: "https://www.youtube.com/watch?v=AD09ghDiyAo",
@@ -720,7 +720,7 @@ const gusi = [
     author: "PATOLOGRAFER",
     link: "https://sur-noname.livejournal.com/113568.html",
     weight: 2270,
-    date: new Date(2016 - 1 - 14),
+    date: new Date("2016, 1, 14"),
     starter: {
       theme: "Безмолвие",
       music: "http://www.youtube.com/watch?v=k1onj96R7YQ",
@@ -742,7 +742,7 @@ const gusi = [
     author: "GAN_DRE",
     link: "https://sur-noname.livejournal.com/113365.html",
     weight: 2025,
-    date: new Date(2016 - 1 - 5),
+    date: new Date("2016, 1, 5"),
     starter: {
       theme: "случайная встреча",
       music: "https://www.youtube.com/watch?v=8YVrnLa8V8M",
@@ -765,7 +765,7 @@ const gusi = [
     author: "taipan_poison",
     link: "https://sur-noname.livejournal.com/112952.html",
     weight: 2395,
-    date: new Date(2015 - 12 - 23),
+    date: new Date("2015, 12, 23"),
     starter: {
       theme: "вечное возвращение",
       music: "http://www.youtube.com/watch?v=KK5YGWS5H84",
@@ -787,7 +787,7 @@ const gusi = [
     author: "taipan_poison",
     link: "https://sur-noname.livejournal.com/112781.html",
     weight: 2337,
-    date: new Date(2015 - 12 - 19),
+    date: new Date("2015, 12, 19"),
     starter: {
       theme: "кумовство",
       music: "http://www.youtube.com/watch?v=gaqH7kJecnM",
@@ -809,7 +809,7 @@ const gusi = [
     author: "patolografer",
     link: "https://sur-noname.livejournal.com/112637.html",
     weight: 2236,
-    date: new Date(2015 - 12 - 19),
+    date: new Date("2015, 12, 19"),
     starter: {
       theme: "Излишества",
       music: "https://music.yandex.ru/album/74726/track/682854",
@@ -831,7 +831,7 @@ const gusi = [
     author: "patolografer",
     link: "https://sur-noname.livejournal.com/112277.html",
     weight: 4315,
-    date: new Date(2015 - 12 - 17),
+    date: new Date("2015, 12, 17"),
     starter: {
       theme: "Гомосексуализм",
       music: "Чугунный скороход -- Пи*оры идут",
@@ -853,7 +853,7 @@ const gusi = [
     author: "komediante",
     link: "https://sur-noname.livejournal.com/112004.html",
     weight: 2009,
-    date: new Date(2015 - 12 - 16),
+    date: new Date("2015, 12, 16"),
     starter: {
       theme: "несчастные ублюдки",
       music: "http://www.youtube.com/watch?v=uFmkNzg1V1E",
@@ -875,7 +875,7 @@ const gusi = [
     author: "patolografer",
     link: "https://sur-noname.livejournal.com/111698.html",
     weight: 2745,
-    date: new Date(2015 - 12 - 14),
+    date: new Date("2015, 12, 14"),
     starter: {
       theme: "Преследование",
       music: "http://www.youtube.com/watch?v=4DlBHBZFm1U",
@@ -897,7 +897,7 @@ const gusi = [
     author: "kopernin",
     link: "https://sur-noname.livejournal.com/111480.html",
     weight: 2000,
-    date: new Date(2015 - 12 - 13),
+    date: new Date("2015, 12, 13"),
     starter: {
       theme: "деньги вечером, стулья утром",
       music: "https://www.youtube.com/watch?v=GOVom1mfXMU",
@@ -919,7 +919,7 @@ const gusi = [
     author: "ceitho",
     link: "https://sur-noname.livejournal.com/111254.html",
     weight: 2357,
-    date: new Date(2015 - 12 - 7),
+    date: new Date("2015, 12, 7"),
     starter: {
       theme: "нет времени объяснять",
       music: "https://www.youtube.com/watch?v=ic-QgV3hbaQ",
@@ -941,7 +941,7 @@ const gusi = [
     author: "taipan_poison",
     link: "https://sur-noname.livejournal.com/110872.html",
     weight: 1937,
-    date: new Date(2015 - 12 - 6),
+    date: new Date("2015, 12, 6"),
     starter: {
       theme: "если снежинка не растает",
       music: "http://www.youtube.com/watch?v=eQemvyyJ--g",
@@ -963,7 +963,7 @@ const gusi = [
     author: "korulag",
     link: "https://sur-noname.livejournal.com/110637.html",
     weight: 1707,
-    date: new Date(2015 - 9 - 20),
+    date: new Date("2015, 9, 20"),
     starter: {
       theme: "просмотр сериала Внутри Эми Шумер",
       music: "https://www.youtube.com/watch?v=-dHUAZydTQ4",
@@ -985,7 +985,7 @@ const gusi = [
     author: "taipan_poison",
     link: "https://sur-noname.livejournal.com/110348.html",
     weight: 2334,
-    date: new Date(2015 - 9 - 9),
+    date: new Date("2015, 9, 9"),
     starter: {
       theme: "следственные мероприятия",
       music: "http://www.youtube.com/watch?v=CH3rx8LhrQo",
@@ -1007,7 +1007,7 @@ const gusi = [
     author: "ceitho",
     link: "https://sur-noname.livejournal.com/110154.html",
     weight: 2359,
-    date: new Date(2015 - 9 - 8),
+    date: new Date("2015, 9, 8"),
     starter: {
       theme: "Не за что биться",
       music: "http://www.youtube.com/watch?v=ueZZZiJMCsc",
@@ -1029,7 +1029,7 @@ const gusi = [
     author: "patolografer",
     link: "https://sur-noname.livejournal.com/109875.html",
     weight: 2383,
-    date: new Date(2015 - 9 - 7),
+    date: new Date("2015, 9, 7"),
     starter: {
       theme: "Ограбление банка",
       music: "http://m.youtube.com/watch?v=Ln8OgmWoyCY",
@@ -1052,7 +1052,7 @@ const gusi = [
     author: "ceitho",
     link: "https://sur-noname.livejournal.com/109651.html",
     weight: 2338,
-    date: new Date(2015 - 9 - 6),
+    date: new Date("2015, 9, 6"),
     starter: {
       theme: "математика",
       music: "http://www.youtube.com/watch?v=b9Cgh8-Np6c",
@@ -1074,7 +1074,7 @@ const gusi = [
     author: "ya_zhey",
     link: "https://sur-noname.livejournal.com/109561.html",
     weight: 1226,
-    date: new Date(2015 - 7 - 5),
+    date: new Date("2015, 7, 5"),
     starter: {
       theme: "Назойливая муха",
       music:
@@ -1097,7 +1097,7 @@ const gusi = [
     author: "korulag",
     link: "https://sur-noname.livejournal.com/108758.html",
     weight: 1996,
-    date: new Date(2015 - 6 - 24),
+    date: new Date("2015, 6, 24"),
     starter: {
       theme: "завтрак Наполеона",
       music: "https://www.youtube.com/watch?v=ktkB96vxHOs",
@@ -1119,7 +1119,7 @@ const gusi = [
     author: "korulag",
     link: "https://sur-noname.livejournal.com/108427.html",
     weight: 1678,
-    date: new Date(2015 - 6 - 21),
+    date: new Date("2015, 6, 21"),
     starter: {
       theme: "Заговор",
       music: "https://www.youtube.com/watch?v=H3B-q8AZnAs",
@@ -1141,7 +1141,7 @@ const gusi = [
     author: "helgvar",
     link: "https://sur-noname.livejournal.com/108218.html",
     weight: 1997,
-    date: new Date(2015 - 6 - 20),
+    date: new Date("2015, 6, 20"),
     starter: {
       theme: "Разная, разная боль",
       music: "https://www.youtube.com/watch?v=9C0xGB73Uuc",
@@ -1163,7 +1163,7 @@ const gusi = [
     author: "helgvar",
     link: "https://sur-noname.livejournal.com/107817.html",
     weight: 1998,
-    date: new Date(2015 - 6 - 20),
+    date: new Date("2015, 6, 20"),
     starter: {
       theme: "мир хижинам",
       music: "https://www.youtube.com/watch?v=gE3-q-aoFZI",
@@ -1171,6 +1171,117 @@ const gusi = [
       words: ["росомаха, выхрест, гурт, престидижитатор, Золя"],
     },
   },
+  {
+    id: 53,
+    branch: "A",
+    parent: "",
+    child: "",
+    index: 60,
+    title: "Гламурная бронетехника добрых советов",
+    music: "https://www.youtube.com/watch?v=It8hdsqA170#t=19",
+    theme: "Вскрытие покажет",
+    location: "танк",
+    words: ["армянин, синегнойка, подкалиберный, янус, пелотон"],
+    author: "korulag",
+    link: "https://sur-noname.livejournal.com/107289.html",
+    weight: 2022,
+    date: new Date("2015, 6, 2"),
+    starter: {
+      theme: "Политические интриги",
+      music: "https://www.youtube.com/watch?v=vZCkuztj3Jg",
+      location: "деревянный биплан",
+      words: ["руль, бензобак, бюджет, президент, скандал"],
+    },
+  },
+  {
+    id: 54,
+    branch: "B",
+    parent: "",
+    child: "",
+    index: 94,
+    title: "Юпитер",
+    music: "http://www.youtube.com/watch?v=WREobnmYO4M#t=19",
+    theme: "Планеты нетрудно упомнить",
+    location: "Гонолулу",
+    words: ["плутон, альтернатива, пеньюар, релятивистский, дайсон"],
+    author: "korulag",
+    link: "https://sur-noname.livejournal.com/107054.html",
+    weight: 1730,
+    date: new Date("2015, 6, 2"),
+    starter: {
+      theme: "Восхождение Юпитер (не планеты, а героини)",
+      music: "https://www.youtube.com/watch?v=OkNlIWKjFAI",
+      location: "вся Земля",
+      words: ["Шон Бин, примитивизм, пошлость, стрелок, Шарп"],
+    },
+  },
+  {
+    id: 55,
+    branch: "B",
+    parent: "",
+    child: "",
+    index: 93,
+    title: "Shanghai Reggae: In memorium J.G.B.",
+    music: "https://www.youtube.com/watch?v=nGW8Lazguis ",
+    theme: "С милым рай и в шалаше",
+    location: "Консульство",
+    words: ["лук, канонада, лошадь, смерть, хохот"],
+    author: "patolografer",
+    link: "https://sur-noname.livejournal.com/106978.html",
+    weight: 1991,
+    date: new Date("2015, 5, 7"),
+    starter: {
+      theme: "Планеты нетрудно упомнить",
+      music: "http://www.youtube.com/watch?v=WREobnmYO4M#t=19",
+      location: "Гонолулу",
+      words: ["плутон, альтернатива, пеньюар, релятивистский, дайсон"],
+    },
+  },
+  {
+    id: 56,
+    branch: "A",
+    parent: "",
+    child: "",
+    index: 59,
+    title: "Ждущие в бездне",
+    music: "https://www.youtube.com/watch?v=UoMX-w1rQlU",
+    theme: "Он под деревом сидит",
+    location: "Орбитальная станция",
+    words: ["лукошко, семечки, подосиновик, рыжий, доктор"],
+    author: "patolografer",
+    link: "https://sur-noname.livejournal.com/106601.html",
+    weight: 1999,
+    date: new Date("2015, 5, 7"),
+    starter: {
+      theme: "Вскрытие покажет",
+      music: "https://www.youtube.com/watch?v=It8hdsqA170#t=19",
+      location: "танк",
+      words: ["армянин,синегнойка,подкалиберный,янус, пелотон"],
+    },
+  },
+  {
+    id: 57,
+    branch: "B",
+    parent: "",
+    child: "",
+    index: 92,
+    title: "Невольник чести",
+    music: "https://music.yandex.ru/album/1893023/track/17198840",
+    theme: "на самом деле",
+    location: "ну это самое",
+    words: ["короче, как бы, типа, ваще, угарно"],
+    author: "helgvar",
+    link: "https://sur-noname.livejournal.com/106263.html",
+    weight: 0,
+    date: new Date("2015, 2, 21"),
+    starter: {
+      theme: "С милым рай и в шалаше",
+      music: "https://www.youtube.com/watch?v=nGW8Lazguis",
+      location: "Консульство",
+      words: ["лук, канонада, лошадь, смерть, хохот"],
+    },
+  },
+
 ];
 
 export { gusi };
@@ -1182,6 +1293,7 @@ export { gusi };
 // Д - e
 //https://sur-noname.livejournal.com/?skip=110
 
+// year, month, day
 
 /* {
   id: 0,
@@ -1197,7 +1309,7 @@ export { gusi };
   author: "",
   link: "",
   weight: 0,
-  date: new Date(0),
+  date: new Date(""),
   starter: {
     theme: "",
     music: "",

@@ -52,7 +52,7 @@ class Card {
       .classList.add(`card__values-value_${this._branch}`);
 
     this._card.querySelector(".card__label-marker").textContent = this._letter;
-    this._card.querySelector(".card__author").textContent = this._author;
+    this._card.querySelector(".card__author").textContent = this._author; 
     this._card.querySelector(".card__title-link").textContent = this._title;
     this._card.querySelector(".card__title-link").href = this._link;
     this._card.querySelector(".card__numbers-item_actual").textContent =
