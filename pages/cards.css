@@ -8,15 +8,41 @@
   /* background-color: var(--light-gray); */
 }
 
-.cards__svg {
-
+.cards__lines {
+  width: 41px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 41px;
+  grid-template-rows: 20px 20px 30px;
+  
 }
+
+.card__lines-in {
+  background-image: url(../images/angle-in-A.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.card__lines-cross {
+  background-image: url(../images/line-A.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.card__lines-out {
+  background-image: url(../images/angle-out-A.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  
+}
+
 
 .cards__cards-container {
   grid-column-start: 1;
   grid-column-end: 2;
   display: grid;
-  grid-template-columns: 60px 470px;
+  grid-template-columns: 41px 470px;
   grid-template-rows: max-content;
   grid-auto-rows: max-content;
 }
