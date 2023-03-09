@@ -16,7 +16,7 @@
   display: grid;
   justify-items: center;
   align-items: center;
-  grid-template-columns: 282px 85px 405px 252px;
+  grid-template-columns: 252px 85px 405px 111px 171px;
 }
 
 .header__logo {
@@ -82,6 +82,13 @@
 
 .hearer__forward-btn {
   background: no-repeat url(../images/forward-btn.svg);
+}
+
+.header__stat-btn {
+  width: 21px;
+  height: 21px;
+  background: no-repeat url(../images/stat-btn.svg);
+  /* background: no-repeat url(../images/main-btn.svg); */
 }
 
 .header__labels-container {

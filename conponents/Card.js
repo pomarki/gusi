@@ -1,4 +1,5 @@
 import { letters } from "../scripts/const.js";
+import { Rect } from "./Rect.js";
 
 class Card {
   constructor(options) {
@@ -52,7 +53,7 @@ class Card {
       .classList.add(`card__values-value_${this._branch}`);
 
     this._card.querySelector(".card__label-marker").textContent = this._letter;
-    this._card.querySelector(".card__author").textContent = this._author; 
+    this._card.querySelector(".card__author").textContent = this._author;
     this._card.querySelector(".card__title-link").textContent = this._title;
     this._card.querySelector(".card__title-link").href = this._link;
     this._card.querySelector(".card__numbers-item_actual").textContent =
@@ -79,6 +80,12 @@ class Card {
     this._card
       .querySelector(".card__values-words")
       .querySelector(".card__values-value").textContent = this._words.join(" ");
+
+    //линии
+    const linesContainer = this._card.querySelector(".cards__lines");
+
+    
+
 
     this._setEventListeners();
 

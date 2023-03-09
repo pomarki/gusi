@@ -6,7 +6,7 @@ const titleWords = {
   D: "зелёная гусеница Г",
   E: "синяя гусеница Д",
   X: "неведомая гусеница X",
-  ALL: "все гусеницы, жестьб Ψ",
+  ALL: "все гусеницы, жестб Ψ",
 };
 
 const letterArr = Object.entries(letters);
