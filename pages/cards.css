@@ -2,10 +2,9 @@
   margin-top: 140px;
   font-family: "Source Code Pro", "Arial", "Helvetica";
   display: grid;
-  grid-template-columns: 581px;
+  grid-template-columns: 591px;
   grid-template-rows: max-content;
   grid-auto-rows: max-content;
-  background-color: var(--light-gray);
 }
 
 .cards__lines {
@@ -21,14 +20,12 @@
 }
 
 .card__lines-line {
-  
 }
 
 .card__lines-out {
 }
 
 .cross {
-
 }
 
 .cards__cards-container {
@@ -36,7 +33,7 @@
   grid-column-end: 2;
   display: grid;
   /* grid-template-columns: 41px 470px; */
-  grid-template-columns: 41px 470px 70px;
+  grid-template-columns: 41px 470px 80px;
   grid-template-rows: max-content;
   grid-auto-rows: max-content;
 }
@@ -49,6 +46,35 @@
 }
 
 .card__date {
-  width: 70px;
-  background-color: tomato;
+  width: 80px;
+  box-sizing: border-box;
+  padding-left: 30px;
+  display: flex;
+}
+
+.card__date_start {
+  align-self: start;
+  padding-top: 3px;
+  border-top: 1px solid var(--gray);
+}
+
+.card__date_finish {
+  align-self: end;
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--gray);
+}
+
+.card__date_single {
+  align-self: center;
+  padding: 10px 0 10px 0;
+  border-top: 1px solid var(--gray);
+  border-bottom: 1px solid var(--gray);
+}
+
+.card__date-title {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  color: var(--red);
+  margin: 0;
 }
