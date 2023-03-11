@@ -13,19 +13,35 @@
   display: grid;
   grid-template-columns: 41px;
   grid-template-rows: 20px auto 30px;
-  background-color: teal;
 }
 
 .card__lines-in {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1px);
+  grid-template-rows: auto;
+  gap: 4px;
 }
 
 .card__lines-line {
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1px);
+  grid-template-rows: auto;
+  gap: 4px;
 }
 
 .card__lines-out {
-}
-
-.cross {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1px);
+  grid-template-rows: auto;
+  gap: 4px;
 }
 
 .cards__cards-container {
@@ -38,11 +54,117 @@
   grid-auto-rows: max-content;
 }
 
-.cards__svg-item {
-  width: 58px;
+.cards__line-E {
+  width: 1px;
+  grid-column-start: 1;
+  grid-column-end: 2;
   height: 100%;
-  border: 1px black solid;
-  background-color: tomato;
+
+  background-color: var(--blue);
+}
+
+.cards__line-D {
+  width: 1px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  height: 100%;
+
+  background-color: var(--green);
+}
+
+.cards__line-C {
+  width: 1px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  height: 100%;
+  background-color: var(--orange);
+}
+
+.cards__line-B {
+  width: 1px;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  height: 100%;
+  background-color: var(--turquoise);
+}
+
+.cards__line-A {
+  width: 1px;
+  grid-column-start: 5;
+  grid-column-end: 6;
+  height: 100%;
+  background-color: var(--light-green);
+}
+
+.cards__angle-in-A {
+  position: absolute;
+  width: 11px;
+  height: 20px;
+  left: 30px;
+}
+
+.cards__angle-in-B {
+  position: absolute;
+  width: 16px;
+  height: 20px;
+  left: 25px;
+}
+
+.cards__angle-in-C {
+  position: absolute;
+  width: 21px;
+  height: 20px;
+  left: 20px;
+}
+
+.cards__angle-in-D {
+  position: absolute;
+  width: 26px;
+  height: 20px;
+  left: 15px;
+}
+
+.cards__angle-in-E {
+  position: absolute;
+  width: 31px;
+  height: 20px;
+  left: 10px;
+}
+
+.cards__angle-out-A {
+  position: absolute;
+  width: 11px;
+  height: 30px;
+  left: 30px;
+}
+
+.cards__angle-out-B {
+  position: absolute;
+  width: 16px;
+  height: 30px;
+  left: 25px;
+}
+
+.cards__angle-out-C {
+  position: absolute;
+  width: 21px;
+  height: 30px;
+  left: 20px;
+}
+
+
+.cards__angle-out-D {
+  position: absolute;
+  width: 26px;
+  height: 30px;
+  left: 15px;
+}
+
+.cards__angle-out-E {
+  position: absolute;
+  width: 31px;
+  height: 30px;
+  left: 10px;
 }
 
 .card__date {

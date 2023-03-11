@@ -1,6 +1,5 @@
 import { letters } from "../scripts/const.js";
 import { Rect } from "./Rect.js";
-import { boundYears } from "../date/years.js";
 class Card {
   constructor(options) {
     this._id = options.id;
@@ -88,9 +87,9 @@ class Card {
     //годы
     const cardYearContainer = this._card.querySelector(".card__date-title");
     const cardYear = this._date.getFullYear();
-    this._yearClass === null ?
-    cardYearContainer.textContent = "" :
-    cardYearContainer.textContent = cardYear;
+    this._yearClass === null
+      ? (cardYearContainer.textContent = "")
+      : (cardYearContainer.textContent = cardYear);
     cardYearContainer.classList.add(this._yearClass);
 
     this._setEventListeners();

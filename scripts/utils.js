@@ -33,14 +33,6 @@ const getYerarsClass = (id, arr, classes) => {
   return currentClass;
 };
 
-const yearsItems = {
-  2015: [34, 57],
-  2016: [19, 33],
-  2017: [10, 18],
-  2018: [9, 9],
-  2023: [0, 8],
-};
-
 const renderCards = (arr, container, cardClass) => {
   container.innerHTML = "";
 
