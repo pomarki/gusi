@@ -19,7 +19,14 @@ const cardsContainer = document.querySelector(".cards__cards-container");
 
 const headerTitle = document.querySelector(".header__info-item");
 
+const classesYears = {
+  start: "card__date_start",
+  finish: "card__date_finish",
+  single: "card__date_single",
+};
+
 export {
+  classesYears,
   letters,
   backBtn,
   forwardBtn,

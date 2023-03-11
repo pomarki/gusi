@@ -19,6 +19,7 @@ class Card {
     this._date = options.date;
     this._starter = options.starter;
     this._letter = letters[options.branch];
+    this._yearClass = options.yearClass;
   }
 
   _getTemplate() {
@@ -87,23 +88,10 @@ class Card {
     //годы
     const cardYearContainer = this._card.querySelector(".card__date-title");
     const cardYear = this._date.getFullYear();
-    if (boundYears[cardYear][0] === this._id) {
-      cardYearContainer.textContent = cardYear;
-      cardYearContainer.classList.add("card__date_start");
-    }
-
-    if (boundYears[cardYear][1] === this._id) {
-      cardYearContainer.textContent = cardYear;
-      cardYearContainer.classList.add("card__date_finish");
-    }
-
-    if (
-      boundYears[cardYear][1] === this._id &&
-      boundYears[cardYear][0] === this._id
-    ) {
-      cardYearContainer.textContent = cardYear;
-      cardYearContainer.classList.add("card__date_single");
-    }
+    this._yearClass === null ?
+    cardYearContainer.textContent = "" :
+    cardYearContainer.textContent = cardYear;
+    cardYearContainer.classList.add(this._yearClass);
 
     this._setEventListeners();
 

@@ -1,3 +1,5 @@
+import { classesYears } from "./const.js";
+
 const byField = (field) => {
   return (a, b) => (a[field] > b[field] ? 1 : -1);
 };
@@ -12,14 +14,53 @@ const filterCards = (el, arr) => {
   return result;
 };
 
+const getYerarsClass = (id, arr, classes) => {
+  let currentClass = null;
+  if (arr === undefined || arr.length === 0) {
+    return currentClass;
+  }
+  let start = arr[0];
+  let finish = arr[1];
+
+  id === start && id === finish
+    ? (currentClass = classes.single)
+    : id === start
+    ? (currentClass = classes.start)
+    : id === finish
+    ? (currentClass = classes.finish)
+    : (currentClass = null);
+
+  return currentClass;
+};
+
+const yearsItems = {
+  2015: [34, 57],
+  2016: [19, 33],
+  2017: [10, 18],
+  2018: [9, 9],
+  2023: [0, 8],
+};
+
 const renderCards = (arr, container, cardClass) => {
   container.innerHTML = "";
 
-  arr.sort(byField("date")).sort(byField("id")).forEach((item) => {
-    const cardElement = new cardClass(item);
-    const cardItem = cardElement.generateCard();
-    container.append(cardItem);
-  });
+  const yearsItems = getBoundsYears(
+    arr.sort(byField("date")).sort(byField("id"))
+  );
+
+  arr
+    .sort(byField("date"))
+    .sort(byField("id"))
+    .forEach((item) => {
+      item["yearClass"] = getYerarsClass(
+        item.id,
+        yearsItems[item.date.getFullYear()],
+        classesYears
+      );
+      const cardElement = new cardClass(item);
+      const cardItem = cardElement.generateCard();
+      container.append(cardItem);
+    });
 };
 
 const renderLabel = (
@@ -54,4 +95,11 @@ const getBoundsYears = (arr) => {
   return result;
 };
 
-export { byField, filterCards, renderCards, renderLabel, renderTitle, getBoundsYears };
+export {
+  byField,
+  filterCards,
+  renderCards,
+  renderLabel,
+  renderTitle,
+  getBoundsYears,
+};
