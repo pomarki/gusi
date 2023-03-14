@@ -70,7 +70,9 @@ const renderCards = (arr, container, cardClass) => {
   const linkItems = getCardLinks(parsedArr);
 
   const linkClass = getCardLinkClass(parsedArr, linkItems);
-  
+
+  const familyOne = filterChild(57, parsedArr, false);
+  console.log(familyOne);
 
   parsedArr
     .sort(byField("date"))
@@ -133,8 +135,6 @@ const getCardLinks = (arr) => {
   return result;
 };
 
-//{ "B": 17, "A": 22, "C": 11, "D": 5, "E": 2, "X": 1 }
-
 const getCardLinkClass = (mainArr, classObj) => {
   let resultIn = [];
   let resultOut = [];
@@ -175,31 +175,77 @@ const createAcrossItem = (inItem, outItem, acrossItem) => {
     subResult.push(outItem);
   }
 
-  if (acrossItem === undefined) {return subResult}
+  if (acrossItem === undefined) {
+    return subResult;
+  }
 
   let subAcross = acrossItem.filter((item) => item != null && item != inItem);
 
-  subResult.push(subAcross)
+  subResult.push(subAcross);
 
   return subResult.flat();
 };
 
-const filterChild = (id, arr) => {
-  let testicle = arr[id].starter;
-  let parentDNA = testicle.theme + testicle.location + testicle.words.join();
+const findCard = (cardId, arr) => {
+  let result = arr.filter((item) => item.id === cardId);
+  return result;
+};
 
-  let family = [arr[id]];
+const filterChild = (id, arr, findParent) => {
+  let family = [];
 
-  arr.forEach((item) => {
-    let itemDNA = item.theme + item.location + item.words.join();
+  let activeCard = findCard(id, arr)[0]; // это карта, чей id упал в запрос
 
-    if (parentDNA === itemDNA) {
-      family.push(item);
-      return;
-    } else {
-      return;
+  let receivedDNA =
+    activeCard.theme + activeCard.location + activeCard.words.join();
+
+  let donatedDNA =
+    activeCard["starter"].theme +
+    activeCard["starter"].location +
+    activeCard["starter"].words.join();
+
+  if (findParent) {
+    family.push(activeCard);
+    arr.forEach((item) => {
+      let itemDonatedDNA = item.theme + item.location + item.words.join();
+      if (donatedDNA === itemDonatedDNA) {
+        family.push(item);
+        return;
+      } else {
+        return;
+      }
+    });
+  }
+
+  if (!findParent) {
+    //ищем папку
+    arr.forEach((item) => {
+      let itemReceivedDNA =
+        item.starter.theme + item.starter.location + item.starter.words.join();
+      if (receivedDNA === itemReceivedDNA) {
+        family.push(item);
+        return;
+      } else {
+        return;
+      }
+    });
+    //безотцовщина
+    if (family.length === 0) {
+      family.push(null);
     }
-  });
+    //ищем братиков
+    arr.forEach((item) => {
+      let itemDonatedDNA = item.theme + item.location + item.words.join();
+      if (receivedDNA === itemDonatedDNA) {
+        family.push(item);
+        return;
+      } else {
+        return;
+      }
+
+    })
+  }
+
   return family;
 };
 
