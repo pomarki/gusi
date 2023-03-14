@@ -1,7 +1,9 @@
 import { classesYears } from "./const.js";
+import { cardsContainer } from "./const.js";
+import { Card } from "../conponents/Card.js";
 
 const byField = (field) => {
-  return (a, b) => (a[field] > b[field] ? 1 : -1);
+  return (a, b) => (a[field] > b[field] ? -1 : 1);
 };
 
 const filterCards = (el, arr) => {
@@ -33,17 +35,51 @@ const getYerarsClass = (id, arr, classes) => {
   return currentClass;
 };
 
+const parserWordsArr = (arr) => {
+  let result = arr.map((i) => {
+    let newWords = [];
+    let newStarterWords = [];
+    i.words.length === 1
+      ? (newWords = i.words[0].split(", "))
+      : (newWords = i.words);
+
+    i.starter.words.length === 1
+      ? (newStarterWords = i.starter.words[0].split(", "))
+      : (newStarterWords = i.starter.words);
+
+    i.words = newWords;
+    i.starter.words = newStarterWords;
+    return i;
+  });
+  return result;
+};
+
+const foo = (id) => {
+  console.log(id);
+};
+
 const renderCards = (arr, container, cardClass) => {
   container.innerHTML = "";
 
+  let parsedArr = parserWordsArr(arr);
+
   const yearsItems = getBoundsYears(
-    arr.sort(byField("date")).sort(byField("id"))
+    parsedArr.sort(byField("date")).sort(byField("id"))
   );
 
-  arr
+  const linkItems = getCardLinks(parsedArr);
+
+  const linkClass = getCardLinkClass(parsedArr, linkItems);
+  
+
+  parsedArr
     .sort(byField("date"))
     .sort(byField("id"))
-    .forEach((item) => {
+    .forEach((item, index) => {
+      item["inClass"] = linkClass[0][index];
+      item["outClass"] = linkClass[1][index];
+      item["acrossClass"] = linkClass[2][index];
+      item["idMethod"] = foo;
       item["yearClass"] = getYerarsClass(
         item.id,
         yearsItems[item.date.getFullYear()],
@@ -85,6 +121,86 @@ const getBoundsYears = (arr) => {
   }
 
   return result;
+};
+
+const getCardLinks = (arr) => {
+  let result = {};
+  arr.forEach((item) => {
+    item["branch"] in result
+      ? (result[item["branch"]] += 1)
+      : (result[item["branch"]] = 1);
+  });
+  return result;
+};
+
+//{ "B": 17, "A": 22, "C": 11, "D": 5, "E": 2, "X": 1 }
+
+const getCardLinkClass = (mainArr, classObj) => {
+  let resultIn = [];
+  let resultOut = [];
+  let resultAcross = [];
+  const referenceObg = Object.assign({}, classObj);
+  let min = 1;
+
+  mainArr.forEach((item) => {
+    let cardIndex = classObj[item["branch"]];
+    let max = referenceObg[item["branch"]];
+    let lastAcrossItem = resultAcross[resultAcross.length - 1];
+    let lastOut = resultOut[resultOut.length - 1];
+    let inItem;
+    let outItem;
+
+    let acrossItem = [];
+
+    cardIndex < max ? (inItem = item["branch"]) : (inItem = null);
+
+    cardIndex > min ? (outItem = item["branch"]) : (outItem = null);
+
+    acrossItem = createAcrossItem(inItem, lastOut, lastAcrossItem);
+
+    resultIn.push(inItem);
+    resultOut.push(outItem);
+    resultAcross.push(acrossItem);
+
+    classObj[item["branch"]] -= 1;
+  });
+
+  return [resultIn, resultOut, resultAcross];
+};
+
+const createAcrossItem = (inItem, outItem, acrossItem) => {
+  let subResult = [null];
+
+  if (outItem != null && outItem != inItem) {
+    subResult.push(outItem);
+  }
+
+  if (acrossItem === undefined) {return subResult}
+
+  let subAcross = acrossItem.filter((item) => item != null && item != inItem);
+
+  subResult.push(subAcross)
+
+  return subResult.flat();
+};
+
+const filterChild = (id, arr) => {
+  let testicle = arr[id].starter;
+  let parentDNA = testicle.theme + testicle.location + testicle.words.join();
+
+  let family = [arr[id]];
+
+  arr.forEach((item) => {
+    let itemDNA = item.theme + item.location + item.words.join();
+
+    if (parentDNA === itemDNA) {
+      family.push(item);
+      return;
+    } else {
+      return;
+    }
+  });
+  return family;
 };
 
 export {

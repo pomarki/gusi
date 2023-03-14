@@ -67,3 +67,4 @@ forwardBtn.addEventListener("click", () => {
 
   renderTitle(actualLetter, letterArr, titleWords, headerTitle)
 });
+

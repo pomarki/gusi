@@ -13,13 +13,14 @@ const gusi = [
     author: "helgvar",
     link: "https://sur-noname.livejournal.com/141080.html",
     weight: 1990,
-    date: new Date("2023, 2, 15"),
+    date: "2023-02-14T21:00:00.000Z",
     starter: {
       theme: "дышать не отворачиваясь",
       music: "https://www.youtube.com/watch?v=MGgDdU1BYsA",
       location: "кисельный Берег-гард",
       words: ["река", "чайка", "крылатый", "чащоба", "волки"],
     },
+    
   },
   {
     id: 1,
@@ -35,13 +36,14 @@ const gusi = [
     author: "helgvar",
     link: "https://sur-noname.livejournal.com/140840.html",
     weight: 1999,
-    date: new Date("2023, 1, 2"),
+    date: "2023-01-01T21:00:00.000Z",
     starter: {
       theme: "Придёт серенький",
       music: "https://www.youtube.com/watch?v=UNA9nO0QYE4",
       location: "крематорий бизнес-класса",
       words: ["постель", "излишество", "искры", "цеппелин", "резня"],
     },
+    
   },
   {
     id: 2,
@@ -57,13 +59,14 @@ const gusi = [
     author: "helgvar",
     link: "https://sur-noname.livejournal.com/140758.html",
     weight: 1988,
-    date: new Date("2023, 1, 2"),
+    date: "2023-01-01T21:00:00.000Z",
     starter: {
       theme: "и в печали, и в радости",
       music: "https://www.youtube.com/watch?v=UR7yvOEFJ6c",
       location: "барная стойка",
       words: ["куртуазность", "мечта", "подвиг", "хрупкость", "дуэль"],
     },
+    
   },
   {
     id: 3,
@@ -79,13 +82,14 @@ const gusi = [
     author: "pomarki",
     link: "https://sur-noname.livejournal.com/140410.html",
     weight: 2011,
-    date: new Date("2023, 1, 31"),
+    date: "2023-01-30T21:00:00.000Z",
     starter: {
       theme: "перекуси поводок",
       music: "https://youtu.be/Zw4s90dyOWI",
       location: "место, где много воды",
       words: ["рокфор", "азимут", "котангенс", "сныть"],
     },
+    
   },
   {
     id: 4,
@@ -101,13 +105,14 @@ const gusi = [
     author: "buhrun",
     link: "https://sur-noname.livejournal.com/139859.html",
     weight: 2319,
-    date: new Date("2023, 1, 29"),
+    date: "2023-01-28T21:00:00.000Z",
     starter: {
       theme: "Кончился хлебушек, а ты живи",
       music: "https://m.youtube.com/watch?v=DGWoIz5B7VM",
       location: "консерватория",
       words: ["глитч", "снасти", "коловрат", "буденовцы", "гештальт"],
     },
+    
   },
   {
     id: 5,
@@ -119,17 +124,18 @@ const gusi = [
     music: "https://youtube.com/watch?v=o4YkrUgFqVY",
     theme: "бессмертие",
     location: "степь",
-    words: ["кровь, стихи, воронье, метель, тени"],
+    words: ["кровь", "стихи", "воронье", "метель", "тени"],
     author: "somesin",
     link: "https://sur-noname.livejournal.com/139558.html",
     weight: 1992,
-    date: new Date("2023, 1, 29"),
+    date: "2023-01-28T21:00:00.000Z",
     starter: {
       theme: "После стольких лет",
       music: "https://www.youtube.com/watch?v=p1pT--9cS6E",
       location: "планета-стадион",
       words: ["рыба", "пламя", "экслибрис", "кольцо", "зонт"],
     },
+    
   },
   {
     id: 6,
@@ -146,13 +152,14 @@ const gusi = [
     author: "taipan_poison",
     link: "https://sur-noname.livejournal.com/139027.html",
     weight: 4883,
-    date: new Date("2023, 1, 21"),
+    date: "2023-01-20T21:00:00.000Z",
     starter: {
       theme: "бессмертие",
       music: "https://youtube.com/watch?v=o4YkrUgFqVY",
       location: "степь",
       words: ["кровь", "стихи", "воронье", "метель", "тени"],
     },
+    
   },
   {
     id: 7,
@@ -168,13 +175,14 @@ const gusi = [
     author: "taipan_poison",
     link: "https://sur-noname.livejournal.com/138923.html",
     weight: 2347,
-    date: new Date("2023, 1, 19"),
+    date: "2023-01-18T21:00:00.000Z",
     starter: {
       theme: "ставка больше чем всё",
       music: "https://youtube.com/watch?v=JRa2bO1NJ34&si=EnSIkaIECMiOmarE",
       location: "Игорный Дом Терпимости",
       words: ["каблуки", "фишки", "азарт", "банкноты", "мания"],
     },
+    
   },
   {
     id: 8,
@@ -190,13 +198,14 @@ const gusi = [
     author: "taipan_poison",
     link: "https://sur-noname.livejournal.com/138716.html",
     weight: 2786,
-    date: new Date("2023, 1, 19"),
+    date: "2023-01-18T21:00:00.000Z",
     starter: {
       theme: "хорошо в деревне летом",
       music: "https://youtube.com/watch?v=3G2itYEgL7U&si=EnSIkaIECMiOmarE",
       location: "ДК",
       words: ["трактор", "треух", "сеновал", "ряженка", "репа"],
     },
+    
   },
   {
     id: 9,
@@ -212,13 +221,14 @@ const gusi = [
     author: "BUHRUN",
     link: "https://sur-noname.livejournal.com/133803.html",
     weight: 3054,
-    date: new Date("2018, 12, 16"),
+    date: "2018-12-15T21:00:00.000Z",
     starter: {
       theme: "Бесстыдство",
       music: "https://youtu.be/Hfv4aarV7oQ",
       location: "Древо Сефирот",
       words: ["стоики", "клинопись", "стопка", "адмиралтейство", "шняга"],
     },
+    yearClass: "card__date_single",
   },
   {
     id: 10,
@@ -234,13 +244,14 @@ const gusi = [
     author: "ZLOY_BABAY",
     link: "https://sur-noname.livejournal.com/128438.html",
     weight: 5273,
-    date: new Date("2017, 12, 7"),
+    date: "2017-12-06T21:00:00.000Z",
     starter: {
       theme: "Хуема",
       music: "https://www.youtube.com/watch?v=BvmfvhcOw5Y",
       location: "спальня",
       words: ["колени", "живот", "растянута", "бластер", "окалина"],
     },
+    
   },
   {
     id: 11,
@@ -256,13 +267,14 @@ const gusi = [
     author: "KORULAG",
     link: "https://sur-noname.livejournal.com/128112.html",
     weight: 1983,
-    date: new Date("2017, 10, 18"),
+    date: "2017-10-17T21:00:00.000Z",
     starter: {
       theme: "Пираты Интернетского моря",
       music: "https://www.youtube.com/watch?v=qGyPuey-1Jw",
       location: "линейный корабль XVIII века",
       words: ["испанцы", "крысы", "кракен", "выпил", "акулы"],
     },
+    
   },
   {
     id: 12,
@@ -278,7 +290,7 @@ const gusi = [
     author: "KORULAG",
     link: "https://sur-noname.livejournal.com/127781.html",
     weight: 1982,
-    date: new Date("2017, 10, 18"),
+    date: "2017-10-17T21:00:00.000Z",
     starter: {
       theme: "Жизнь не удалась, но ещё есть время начать вторую",
       music: "https://www.youtube.com/watch?v=42MAk4_DBFc",
@@ -286,6 +298,7 @@ const gusi = [
         "Фронтир (колониальный на Земле, космический, фентезийный, любая отдалённая, передовая территория расширяющейся цивилизации, слабо заселённая, опасная, труднодоступная)",
       words: ["Обнял", "заплакал", "влюбился", "каравелла", "могикане"],
     },
+    
   },
   {
     id: 13,
@@ -301,13 +314,14 @@ const gusi = [
     author: "STARFLEAR",
     link: "https://sur-noname.livejournal.com/127585.html",
     weight: 1072,
-    date: new Date("2017, 4, 5"),
+    date: "2017-04-04T21:00:00.000Z",
     starter: {
       theme: "Сражение",
       music: "https://www.youtube.com/watch?v=2PYXa046KBY",
       location: "Побережье",
       words: ["Траншея", "задворки", "блеф", "флуоресценция", "итог"],
     },
+    
   },
   {
     id: 14,
@@ -323,13 +337,14 @@ const gusi = [
     author: "ALEXGARDT",
     link: "https://sur-noname.livejournal.com/127426.html",
     weight: 2170,
-    date: new Date("2017, 3, 14"),
+    date: "2017-03-13T21:00:00.000Z",
     starter: {
       theme: "охота",
       music: "https://www.youtube.com/watch?v=3dyNbMVfeyM",
       location: "middle of nowhere",
       words: ["цугцванг", "ирис", "чары", "искра", "жантильный"],
     },
+    
   },
   {
     id: 15,
@@ -345,13 +360,14 @@ const gusi = [
     author: "ВЛАД КОПЕРНИН",
     link: "https://sur-noname.livejournal.com/127132.html",
     weight: 1579,
-    date: new Date("2017, 3, 11"),
+    date: "2017-03-10T21:00:00.000Z",
     starter: {
       theme: "",
       music: "",
       location: "",
       words: [""],
     },
+    
   },
   {
     id: 16,
@@ -367,13 +383,14 @@ const gusi = [
     author: "ВЛАД КОПЕРНИН",
     link: "https://sur-noname.livejournal.com/126909.html",
     weight: 1879,
-    date: new Date("2017, 3, 11"),
+    date: "2017-03-10T21:00:00.000Z",
     starter: {
       theme: "Лев весной",
       music: "https://www.youtube.com/watch?v=GaHqjStYFCM",
       location: "Инферно",
       words: ["Билет", "покер", "змея", "стилет", "уха"],
     },
+    
   },
   {
     id: 17,
@@ -389,13 +406,14 @@ const gusi = [
     author: "PATOLOGRAFER",
     link: "https://sur-noname.livejournal.com/126543.html",
     weight: 2909,
-    date: new Date("2017, 2, 21"),
+    date: "2017-02-20T21:00:00.000Z",
     starter: {
       theme: "Прорыв",
       music: "https://www.youtube.com/watch?v=3VgNoKc_Gdw",
       location: "Внутри",
       words: ["родриго", "аневризма", "пальчики", "тринадцатый", "лев"],
     },
+    
   },
   {
     id: 18,
@@ -407,17 +425,18 @@ const gusi = [
     music: "https://music.yandex.ru/album/2918834",
     theme: "Конкуренция",
     location: "Мир/океан",
-    words: ["балласт, сифонофоры, гичка, инвагинация, пастух"],
+    words: ["балласт", "сифонофоры", "гичка", "инвагинация", "пастух"],
     author: "PATOLOGRAFER",
     link: "https://sur-noname.livejournal.com/123319.html",
     weight: 8968,
-    date: new Date("2017, 1, 30"),
+    date: "2017-01-29T21:00:00.000Z",
     starter: {
       theme: "Расстояния",
       music: "https://www.youtube.com/watch?v=IvUU8joBb1Q",
       location: "Промежуток",
-      words: ["интервал, дистанция, ритмика, пауза, темп"],
+      words: ["интервал", "дистанция", "ритмика", "пауза", "темп"],
     },
+    
   },
   {
     id: 19,
@@ -429,17 +448,18 @@ const gusi = [
     music: "https://www.youtube.com/watch?v=Gt_aDL4AG3M",
     theme: "в бегах",
     location: "в снегу",
-    words: ["финики, нитка, гамаюн, синкретика, инеистый"],
+    words: ["финики", "нитка", "гамаюн", "синкретика", "инеистый"],
     author: "FYORNE",
     link: "https://sur-noname.livejournal.com/121828.html",
     weight: 2079,
-    date: new Date("2016, 11, 15"),
+    date: "2016-11-14T21:00:00.000Z",
     starter: {
       theme: "Дисфункция",
       music: "https://www.youtube.com/watch?v=sGcdcVblZ-8",
       location: "кибергород",
-      words: ["пришёл, нашёл, достал, забил, ушёл"],
+      words: ["пришёл", "нашёл", "достал", "забил", "ушёл"],
     },
+    
   },
   {
     id: 20,
@@ -451,17 +471,18 @@ const gusi = [
     music: "https://music.yandex.ru/album/2674838",
     theme: "Анестезия",
     location: "Побережье",
-    words: ["классика, нейросексизм, амадин, золотце, криорелаксанты"],
+    words: ["классика", "нейросексизм", "амадин", "золотце", "криорелаксанты"],
     author: "TAIPAN_POISON",
     link: "https://sur-noname.livejournal.com/121526.html",
     weight: 2942,
-    date: new Date("2016, 7, 25"),
+    date: "2016-07-24T21:00:00.000Z",
     starter: {
       theme: "мы никогда не умрем",
       music: "https://www.youtube.com/watch?v=ejEd4Jm9u2w",
       location: "какой-то другой мир",
-      words: ["веснушки, блики, педаль, яичница, сжечь"],
+      words: ["веснушки", "блики", "педаль", "яичница", "сжечь"],
     },
+    
   },
   {
     id: 21,
@@ -473,17 +494,18 @@ const gusi = [
     music: "https://www.youtube.com/watch?v=sJhZkXs8ZN0",
     theme: "Ожидание",
     location: "Портовый город",
-    words: ["дифферент, шотландка, слаксы, выбленки, соломон"],
+    words: ["дифферент", "шотландка", "слаксы", "выбленки", "соломон"],
     author: "TWEMON",
     link: "https://sur-noname.livejournal.com/121093.html",
     weight: 3022,
-    date: new Date("2016, 7, 18"),
+    date: "2016-07-17T21:00:00.000Z",
     starter: {
       theme: "Бананы - дерьмо",
       music: "https://www.youtube.com/watch?v=g52ZXOcSIug",
       location: "Клондайк",
-      words: ["стерлядка, проволочь, обструкция, ожижел, капец"],
+      words: ["стерлядка", "проволочь", "обструкция", "ожижел", "капец"],
     },
+    
   },
   {
     id: 22,
@@ -499,13 +521,14 @@ const gusi = [
     author: "kprl__tot",
     link: "https://sur-noname.livejournal.com/120498.html",
     weight: 5421,
-    date: new Date("2016, 4, 27"),
+    date: "2016-04-26T21:00:00.000Z",
     starter: {
       theme: "нет",
       music: "нет",
       location: "нет",
       words: ["нет"],
     },
+    
   },
   {
     id: 23,
@@ -517,17 +540,18 @@ const gusi = [
     music: "http://www.youtube.com/watch?v=gaqH7kJecnM",
     theme: "кумовство",
     location: "трактир",
-    words: ["пирожок, самовар, ехидна, сопелка, шмурдяк"],
+    words: ["пирожок", "самовар", "ехидна", "сопелка", "шмурдяк"],
     author: "PATOLOGRAFER",
     link: "https://sur-noname.livejournal.com/116793.html",
     weight: 9603,
-    date: new Date("2016, 2, 28"),
+    date: "2016-02-27T21:00:00.000Z",
     starter: {
       theme: "Ожидание",
       music: "https://www.youtube.com/watch?v=sJhZkXs8ZN0",
       location: "Портовый город",
-      words: ["дифферент, шотландка, слаксы, выбленки, соломон"],
+      words: ["дифферент", "шотландка", "слаксы", "выбленки", "соломон"],
     },
+    
   },
   {
     id: 24,
@@ -539,17 +563,18 @@ const gusi = [
     music: "Maximum the hormone - Zetsubou Billy",
     theme: "Вчера не было",
     location: "бар",
-    words: ["мочалка, медиатор, пылесос, салат, крыло"],
+    words: ["мочалка", "медиатор", "пылесос", "салат", "крыло"],
     author: "TAIPAN_POISON",
     link: "https://sur-noname.livejournal.com/116330.html",
     weight: 2305,
-    date: new Date("2016, 2, 25"),
+    date: "2016-02-24T21:00:00.000Z",
     starter: {
       theme: "в бегах",
       music: "https://www.youtube.com/watch?v=Gt_aDL4AG3M",
       location: "в снегу",
-      words: ["финики, нитка, гамаюн, синкретика, инеистый"],
+      words: ["финики", "нитка", "гамаюн", "синкретика", "инеистый"],
     },
+    
   },
   {
     id: 25,
@@ -561,17 +586,18 @@ const gusi = [
     music: "https://www.youtube.com/watch?v=i63cgUeSsY0",
     theme: "Драма в драмкружке",
     location: "актовый зал",
-    words: ["хулиган, репетиция, гитлер, платье, влюблённость"],
+    words: ["хулиган", "репетиция", "гитлер", "платье", "влюблённость"],
     author: "LESYA_LES",
     link: "https://sur-noname.livejournal.com/116065.html",
     weight: 1983,
-    date: new Date("2016, 2, 25"),
+    date: "2016-02-24T21:00:00.000Z",
     starter: {
       theme: "Вчера не было",
       music: "https://youtu.be/lEFHwV9J7pY",
       location: "бар",
-      words: ["мочалка, медиатор, пылесос, салат, крыло"],
+      words: ["мочалка", "медиатор", "пылесос", "салат", "крыло"],
     },
+    
   },
   {
     id: 26,
@@ -583,17 +609,18 @@ const gusi = [
     music: "Александр Градский - Как молоды мы были",
     theme: "припомнить всё",
     location: "остров Цейлон",
-    words: ["водка, кок, кот, кит, бананище"],
+    words: ["водка", "кок", "кот", "кит", "бананище"],
     author: "IISUS",
     link: "https://sur-noname.livejournal.com/115614.html",
     weight: 4221,
-    date: new Date("2016, 2, 24"),
+    date: "2016-02-23T21:00:00.000Z",
     starter: {
       theme: "Драма в драмкружке",
       music: "https://www.youtube.com/watch?v=i63cgUeSsY0",
       location: "актовый зал",
-      words: ["хулиган, репетиция, гитлер, платье, влюблённость"],
+      words: ["хулиган", "репетиция", "гитлер", "платье", "влюблённость"],
     },
+    
   },
   {
     id: 27,
@@ -606,17 +633,24 @@ const gusi = [
     music: "Matt Corby - Made of Stone",
     theme: "нет времени объяснять",
     location: "пустыня Мохаве",
-    words: ["самовар, коронка, этюд, инкогнито, масть"],
+    words: ["самовар", "коронка", "этюд", "инкогнито", "масть"],
     author: "PATOLOGRAFER",
     link: "https://sur-noname.livejournal.com/115373.html",
     weight: 6875,
-    date: new Date("2016, 2, 24"),
+    date: "2016-02-23T21:00:00.000Z",
     starter: {
       theme: "Анестезия",
       music: "https://www.youtube.com/watch?v=j7IMSuVHmJs",
       location: "Побережье",
-      words: ["классика, нейросексизм, амадин, золотце, криорелаксанты"],
+      words: [
+        "классика",
+        "нейросексизм",
+        "амадин",
+        "золотце",
+        "криорелаксанты",
+      ],
     },
+    
   },
   {
     id: 28,
@@ -628,17 +662,18 @@ const gusi = [
     music: "https://www.youtube.com/watch?v=ic-QgV3hbaQ",
     theme: "нет времени объяснять",
     location: "пустыня Мохаве",
-    words: ["самовар, коронка, этюд, инкогнито, масть"],
+    words: ["самовар", "коронка", "этюд", "инкогнито", "масть"],
     author: "ZLOY_BABAY",
     link: "https://sur-noname.livejournal.com/115119.html",
     weight: 2292,
-    date: new Date("2016, 2, 24"),
+    date: "2016-02-23T21:00:00.000Z",
     starter: {
       theme: "припомнить всё",
       music: "Александр Градский - Как молоды мы были",
       location: "остров Цейлон",
-      words: ["водка, кок, кот, кит, бананище"],
+      words: ["водка", "кок", "кот", "кит", "бананище"],
     },
+    
   },
   {
     id: 29,
@@ -650,17 +685,18 @@ const gusi = [
     music: "https://www.youtube.com/watch?v=g7d9KM1plyg",
     theme: "Нет худа, нет добра",
     location: "Мир-кольцо",
-    words: ["удар, копыта, ложка, икра, феерия"],
+    words: ["удар", "копыта", "ложка", "икра", "феерия"],
     author: "PATOLOGRAFER",
     link: "https://sur-noname.livejournal.com/114887.html",
     weight: 5188,
-    date: new Date("2016, 2, 18"),
+    date: "2016-02-17T21:00:00.000Z",
     starter: {
       theme: "Конкуренция",
       music: "https://music.yandex.ru/album/2918834",
       location: "Мир/океан",
-      words: ["балласт, сифонофоры, гичка, инвагинация, пастух"],
+      words: ["балласт", "сифонофоры", "гичка", "инвагинация", "пастух"],
     },
+    
   },
   {
     id: 30,
@@ -672,17 +708,18 @@ const gusi = [
     music: "https://www.youtube.com/watch?v=AD09ghDiyAo",
     theme: "куда ни пойдешь - всюду лес",
     location: "дебри",
-    words: ["спички, ветчина, пасадобль, макабр, солнышко"],
+    words: ["спички", "ветчина", "пасадобль", "макабр", "солнышко"],
     author: "SOMESIN",
     link: "https://sur-noname.livejournal.com/113938.html",
     weight: 1986,
-    date: new Date("2016, 1, 17"),
+    date: "2016-01-16T21:00:00.000Z",
     starter: {
       theme: "нет худа, нет добра",
       music: "https://www.youtube.com/watch?v=g7d9KM1plyg",
       location: "мир-кольцо",
-      words: ["удар, копыта, ложка, икра, феерия"],
+      words: ["удар", "копыта", "ложка", "икра", "феерия"],
     },
+    
   },
   {
     id: 31,
@@ -694,17 +731,18 @@ const gusi = [
     music: "Чугунный скороход -- Пи*оры идут",
     theme: "Гомосексуализм",
     location: "Приюпитерианский орбитальный город Нью-Симеиз",
-    words: ["адюльтер, нежный, ёжики, хлебало, пеньюар"],
+    words: ["адюльтер", "нежный", "ёжики", "хлебало", "пеньюар"],
     author: "TAIPAN_POISON",
     link: "https://sur-noname.livejournal.com/113914.html",
     weight: 2326,
-    date: new Date("2016, 1, 14"),
+    date: "2016-01-13T21:00:00.000Z",
     starter: {
       theme: "куда ни пойдешь - всюду лес",
       music: "https://www.youtube.com/watch?v=AD09ghDiyAo",
       location: "дебри",
-      words: ["спички, ветчина, пасадобль, макабр, солнышко"],
+      words: ["спички", "ветчина", "пасадобль", "макабр", "солнышко"],
     },
+    
   },
   {
     id: 32,
@@ -716,17 +754,18 @@ const gusi = [
     music: "Madcon – Beggin",
     theme: "случайная встреча",
     location: "под мостом",
-    words: ["ливень, дети, запонка, джайв, звездочёт"],
+    words: ["ливень", "дети", "запонка", "джайв", "звездочёт"],
     author: "PATOLOGRAFER",
     link: "https://sur-noname.livejournal.com/113568.html",
     weight: 2270,
-    date: new Date("2016, 1, 14"),
+    date: "2016-01-13T21:00:00.000Z",
     starter: {
       theme: "Безмолвие",
       music: "http://www.youtube.com/watch?v=k1onj96R7YQ",
       location: "Антарктида",
-      words: ["калибан, кабестан, итерация, ламантин, ратрак"],
+      words: ["калибан", "кабестан", "итерация", "ламантин", "ратрак"],
     },
+    
   },
   {
     id: 33,
@@ -738,17 +777,18 @@ const gusi = [
     music: "Marc Cohn - Walking In Memphis",
     theme: "вечное возвращение",
     location: "верхом на звезде",
-    words: ["блестки, гитара, текила, соль, Карпов"],
+    words: ["блестки", "гитара", "текила", "соль", "Карпов"],
     author: "GAN_DRE",
     link: "https://sur-noname.livejournal.com/113365.html",
     weight: 2025,
-    date: new Date("2016, 1, 5"),
+    date: "2016-01-04T21:00:00.000Z",
     starter: {
       theme: "случайная встреча",
       music: "https://www.youtube.com/watch?v=8YVrnLa8V8M",
       location: "под мостом",
-      words: ["ливень, дети, запонка, джайв, звездочёт"],
+      words: ["ливень", "дети", "запонка", "джайв", "звездочёт"],
     },
+    
   },
   {
     id: 34,
@@ -761,17 +801,18 @@ const gusi = [
     music: "https://www.youtube.com/watch?v=4DlBHBZFm1U",
     theme: "Преследование",
     location: "Ацидалийская равнина",
-    words: ["оскомина, мутиляция, гэндальф, рутина, мегалит"],
+    words: ["оскомина", "мутиляция", "гэндальф", "рутина", "мегалит"],
     author: "taipan_poison",
     link: "https://sur-noname.livejournal.com/112952.html",
     weight: 2395,
-    date: new Date("2015, 12, 23"),
+    date: "2015-12-22T21:00:00.000Z",
     starter: {
       theme: "вечное возвращение",
       music: "http://www.youtube.com/watch?v=KK5YGWS5H84",
       location: "верхом на звезде",
-      words: ["блестки, гитара, текила, соль, Карпов"],
+      words: ["блестки", "гитара", "текила", "соль", "Карпов"],
     },
+    
   },
   {
     id: 35,
@@ -783,17 +824,18 @@ const gusi = [
     music: "Cypress Hill -- Tequilla Sunrise",
     theme: "Излишества",
     location: "Бордель",
-    words: ["сладкий, кайман, швейцарец, доппельганглер, шоколад"],
+    words: ["сладкий", "кайман", "швейцарец", "доппельганглер", "шоколад"],
     author: "taipan_poison",
     link: "https://sur-noname.livejournal.com/112781.html",
     weight: 2337,
-    date: new Date("2015, 12, 19"),
+    date: "2015-12-18T21:00:00.000Z",
     starter: {
       theme: "кумовство",
       music: "http://www.youtube.com/watch?v=gaqH7kJecnM",
       location: "трактир",
-      words: ["пирожок, самовар, ехидна, сопелка, шмурдяк"],
+      words: ["пирожок", "самовар", "ехидна", "сопелка", "шмурдяк"],
     },
+    
   },
   {
     id: 36,
@@ -805,17 +847,18 @@ const gusi = [
     music: "http://www.youtube.com/watch?v=uFmkNzg1V1E",
     theme: "несчастные ублюдки",
     location: "владения хозяйки медной горы",
-    words: ["резкость, катана, голбец, кенотаф, помидор"],
+    words: ["резкость", "катана", "голбец", "кенотаф", "помидор"],
     author: "patolografer",
     link: "https://sur-noname.livejournal.com/112637.html",
     weight: 2236,
-    date: new Date("2015, 12, 19"),
+    date: "2015-12-18T21:00:00.000Z",
     starter: {
       theme: "Излишества",
       music: "https://music.yandex.ru/album/74726/track/682854",
       location: "Бордель",
-      words: ["сладкий, кайман, швейцарец, доппельганглер, шоколад"],
+      words: ["сладкий", "кайман", "швейцарец", "доппельганглер", "шоколад"],
     },
+    
   },
   {
     id: 37,
@@ -827,17 +870,18 @@ const gusi = [
     music: "а х@й его знает какая, у меня не открывается ютуб",
     theme: "деньги вечером, стулья утром",
     location: "пещеры Лейхтвейса",
-    words: ["капитуляция, березовая, левкой, правые, фантасмагория"],
+    words: ["капитуляция", "березовая", "левкой", "правые", "фантасмагория"],
     author: "patolografer",
     link: "https://sur-noname.livejournal.com/112277.html",
     weight: 4315,
-    date: new Date("2015, 12, 17"),
+    date: "2015-12-16T21:00:00.000Z",
     starter: {
       theme: "Гомосексуализм",
       music: "Чугунный скороход -- Пи*оры идут",
       location: "Приюпитерианский орбитальный город Нью-Симеиз",
-      words: ["адюльтер, нежный, ёжики, хлебало, пеньюар"],
+      words: ["адюльтер", "нежный", "ёжики", "хлебало", "пеньюар"],
     },
+    
   },
   {
     id: 38,
@@ -849,17 +893,18 @@ const gusi = [
     music: "http://www.youtube.com/watch?v=b9Cgh8-Np6c",
     theme: "математика",
     location: "проваленная явка",
-    words: ["люменометр, адусация, бадьян, ключ, толкануть"],
+    words: ["люменометр", "адусация", "бадьян", "ключ", "толкануть"],
     author: "komediante",
     link: "https://sur-noname.livejournal.com/112004.html",
     weight: 2009,
-    date: new Date("2015, 12, 16"),
+    date: "2015-12-15T21:00:00.000Z",
     starter: {
       theme: "несчастные ублюдки",
       music: "http://www.youtube.com/watch?v=uFmkNzg1V1E",
       location: "владения хозяйки медной горы",
-      words: ["резкость, катана, голбец, кенотаф, помидор"],
+      words: ["резкость", "катана", "голбец", "кенотаф", "помидор"],
     },
+    
   },
   {
     id: 39,
@@ -871,17 +916,18 @@ const gusi = [
     music: "АукцЫон «Дорога»",
     theme: "Не за что биться",
     location: "Дорога в никуда",
-    words: ["амарантовый, руны, фигурация, бездушие, сандарак"],
+    words: ["амарантовый", "руны", "фигурация", "бездушие", "сандарак"],
     author: "patolografer",
     link: "https://sur-noname.livejournal.com/111698.html",
     weight: 2745,
-    date: new Date("2015, 12, 14"),
+    date: "2015-12-13T21:00:00.000Z",
     starter: {
       theme: "Преследование",
       music: "http://www.youtube.com/watch?v=4DlBHBZFm1U",
       location: "Ацидалийская равнина",
-      words: ["оскомина, мутиляция, гэндальф, рутина, мегалит"],
+      words: ["оскомина", "мутиляция", "гэндальф", "рутина", "мегалит"],
     },
+    
   },
   {
     id: 40,
@@ -893,17 +939,18 @@ const gusi = [
     music: "http://www.youtube.com/watch?v=ueZZZiJMCsc",
     theme: "Не за что биться",
     location: "Дорога в никуда",
-    words: ["амарантовый, руны, фигурация, бездушие, сандарак"],
+    words: ["амарантовый", "руны", "фигурация", "бездушие", "сандарак"],
     author: "kopernin",
     link: "https://sur-noname.livejournal.com/111480.html",
     weight: 2000,
-    date: new Date("2015, 12, 13"),
+    date: "2015-12-12T21:00:00.000Z",
     starter: {
       theme: "деньги вечером, стулья утром",
       music: "https://www.youtube.com/watch?v=GOVom1mfXMU",
       location: "пещеры лейхтвейса",
-      words: ["капитуляция, березовая, левкой, правые, фантасмагория"],
+      words: ["капитуляция", "березовая", "левкой", "правые", "фантасмагория"],
     },
+    
   },
   {
     id: 41,
@@ -915,17 +962,18 @@ const gusi = [
     music: "https://www.youtube.com/watch?v=eQemvyyJ--g",
     theme: "если снежинка не растает",
     location: "новогодняя елка (или ее окрестности)",
-    words: ["мандарин, гирлянда, серпантин, шуба, леденец"],
+    words: ["мандарин", "гирлянда", "серпантин", "шуба", "леденец"],
     author: "ceitho",
     link: "https://sur-noname.livejournal.com/111254.html",
     weight: 2357,
-    date: new Date("2015, 12, 7"),
+    date: "2015-12-06T21:00:00.000Z",
     starter: {
       theme: "нет времени объяснять",
       music: "https://www.youtube.com/watch?v=ic-QgV3hbaQ",
       location: "пустыня Мохаве",
-      words: ["самовар, коронка, этюд, инкогнито, масть"],
+      words: ["самовар", "коронка", "этюд", "инкогнито", "масть"],
     },
+    
   },
   {
     id: 42,
@@ -937,17 +985,18 @@ const gusi = [
     music: "государственный гимн РФ",
     theme: "просмотр сериала Внутри Эми Шумер",
     location: "Кремль",
-    words: ["Эми, Шумер, патриот, невинность, духовность"],
+    words: ["Эми", "Шумер", "патриот", "невинность", "духовность"],
     author: "taipan_poison",
     link: "https://sur-noname.livejournal.com/110872.html",
     weight: 1937,
-    date: new Date("2015, 12, 6"),
+    date: "2015-12-05T21:00:00.000Z",
     starter: {
       theme: "если снежинка не растает",
       music: "http://www.youtube.com/watch?v=eQemvyyJ--g",
       location: "новогодняя елка (или ее окрестности)",
-      words: ["мандарин, гирлянда, серпантин, шуба, леденец"],
+      words: ["мандарин", "гирлянда", "серпантин", "шуба", "леденец"],
     },
+    
   },
   {
     id: 43,
@@ -959,17 +1008,24 @@ const gusi = [
     music: "http://www.youtube.com/watch?v=CH3rx8LhrQo",
     theme: "следственные мероприятия",
     location: "ночные улицы",
-    words: ["девятимиллиметровый, оцепление, ниточки, наружка, вскрытие"],
+    words: [
+      "девятимиллиметровый",
+      "оцепление",
+      "ниточки",
+      "наружка",
+      "вскрытие",
+    ],
     author: "korulag",
     link: "https://sur-noname.livejournal.com/110637.html",
     weight: 1707,
-    date: new Date("2015, 9, 20"),
+    date: "2015-09-19T21:00:00.000Z",
     starter: {
       theme: "просмотр сериала Внутри Эми Шумер",
       music: "https://www.youtube.com/watch?v=-dHUAZydTQ4",
       location: "Кремль",
-      words: ["Эми, Шумер, патриот, невинность, духовность"],
+      words: ["Эми", "Шумер", "патриот", "невинность", "духовность"],
     },
+    
   },
   {
     id: 44,
@@ -981,17 +1037,24 @@ const gusi = [
     music: "Музыка из к/ф Серые волки Андрей Петров",
     theme: "Заговор",
     location: "Апостольский дворец, Ватикан",
-    words: ["любовь, поцелуй, ЦРУ, Хитмэн, микробиология"],
+    words: ["любовь", "поцелуй", "ЦРУ", "Хитмэн", "микробиология"],
     author: "taipan_poison",
     link: "https://sur-noname.livejournal.com/110348.html",
     weight: 2334,
-    date: new Date("2015, 9, 9"),
+    date: "2015-09-08T21:00:00.000Z",
     starter: {
       theme: "следственные мероприятия",
       music: "http://www.youtube.com/watch?v=CH3rx8LhrQo",
       location: "ночные улицы",
-      words: ["девятимиллиметровый, оцепление, ниточки, наружка, вскрытие"],
+      words: [
+        "девятимиллиметровый",
+        "оцепление",
+        "ниточки",
+        "наружка",
+        "вскрытие",
+      ],
     },
+    
   },
   {
     id: 45,
@@ -1003,17 +1066,24 @@ const gusi = [
     music: " http://m.youtube.com/watch?v=Ln8OgmWoyCY",
     theme: "Ограбление банка",
     location: "Ацтлан",
-    words: ["Теночтитлан, Теотиуакан, Попокатепетль, Уицилопочтли, шотган"],
+    words: [
+      "Теночтитлан",
+      "Теотиуакан",
+      "Попокатепетль",
+      "Уицилопочтли",
+      "шотган",
+    ],
     author: "ceitho",
     link: "https://sur-noname.livejournal.com/110154.html",
     weight: 2359,
-    date: new Date("2015, 9, 8"),
+    date: "2015-09-07T21:00:00.000Z",
     starter: {
       theme: "Не за что биться",
       music: "http://www.youtube.com/watch?v=ueZZZiJMCsc",
       location: "Дорога в никуда",
-      words: ["амарантовый, руны, фигурация, бездушие, сандарак"],
+      words: ["амарантовый", "руны", "фигурация", "бездушие", "сандарак"],
     },
+    
   },
   {
     id: 46,
@@ -1025,17 +1095,24 @@ const gusi = [
     music: "https://www.youtube.com/watch?v=ktkB96vxHOs",
     theme: "завтрак Наполеона",
     location: "Ватерлоо",
-    words: ["гренадеры, Рианна, дискотека, Толстой, шампанское"],
+    words: ["гренадеры", "Рианна", "дискотека", "Толстой", "шампанское"],
     author: "patolografer",
     link: "https://sur-noname.livejournal.com/109875.html",
     weight: 2383,
-    date: new Date("2015, 9, 7"),
+    date: "2015-09-06T21:00:00.000Z",
     starter: {
       theme: "Ограбление банка",
       music: "http://m.youtube.com/watch?v=Ln8OgmWoyCY",
       location: "Ацтлан",
-      words: ["Теночтитлан, Теотиуакан, Попокатепетль, Уицилопочтли, шотган"],
+      words: [
+        "Теночтитлан",
+        "Теотиуакан",
+        "Попокатепетль",
+        "Уицилопочтли",
+        "шотган",
+      ],
     },
+    
   },
   {
     id: 47,
@@ -1048,17 +1125,18 @@ const gusi = [
       "https://www.youtube.com/watch?v=_Zdg-AMv8tw://www.youtube.com/watch?v=_Zdg-AMv8tw",
     theme: "Назойливая муха",
     location: "библиотека",
-    words: ["красный, потеха, треугольник, вольность, кеды"],
+    words: ["красный", "потеха", "треугольник", "вольность", "кеды"],
     author: "ceitho",
     link: "https://sur-noname.livejournal.com/109651.html",
     weight: 2338,
-    date: new Date("2015, 9, 6"),
+    date: "2015-09-05T21:00:00.000Z",
     starter: {
       theme: "математика",
       music: "http://www.youtube.com/watch?v=b9Cgh8-Np6c",
       location: "проваленная явка",
-      words: ["люменометр, адусация, бадьян, ключ, толкануть"],
+      words: ["люменометр", "адусация", "бадьян", "ключ", "толкануть"],
     },
+    
   },
   {
     id: 48,
@@ -1070,18 +1148,19 @@ const gusi = [
     music: "https://www.youtube.com/watch?v=ktkB96vxHOs",
     theme: "завтрак Наполеона",
     location: "Ватерлоо",
-    words: ["гренадеры, Рианна, дискотека, Толстой, шампанское"],
+    words: ["гренадеры", "Рианна", "дискотека", "Толстой", "шампанское"],
     author: "ya_zhey",
     link: "https://sur-noname.livejournal.com/109561.html",
     weight: 1226,
-    date: new Date("2015, 7, 5"),
+    date: "2015-07-04T21:00:00.000Z",
     starter: {
       theme: "Назойливая муха",
       music:
         "https://www.youtube.com/watch?v=_Zdg-AMv8tw://www.youtube.com/watch?v=_Zdg-AMv8tw",
       location: "библиотека",
-      words: ["красный, потеха, треугольник, вольность, кеды"],
+      words: ["красный", "потеха", "треугольник", "вольность", "кеды"],
     },
+    
   },
   {
     id: 49,
@@ -1093,17 +1172,18 @@ const gusi = [
     music: "https://www.youtube.com/watch?v=9C0xGB73Uuc",
     theme: "Разная, разная боль",
     location: "берег",
-    words: ["мечта, вера, доблесть, вкус, солнце"],
+    words: ["мечта", "вера", "доблесть", "вкус", "солнце"],
     author: "korulag",
     link: "https://sur-noname.livejournal.com/108758.html",
     weight: 1996,
-    date: new Date("2015, 6, 24"),
+    date: "2015-06-23T21:00:00.000Z",
     starter: {
       theme: "завтрак Наполеона",
       music: "https://www.youtube.com/watch?v=ktkB96vxHOs",
       location: "Ватерлоо",
-      words: ["гренадеры, Рианна, дискотека, Толстой, шампанское"],
+      words: ["гренадеры", "Рианна", "дискотека", "Толстой", "шампанское"],
     },
+    
   },
   {
     id: 50,
@@ -1115,17 +1195,18 @@ const gusi = [
     music: "https://www.youtube.com/watch?v=gE3-q-aoFZI",
     theme: "мир хижинам",
     location: "Виннипег",
-    words: ["росомаха, выхрест, гурт, престидижитатор, Золя"],
+    words: ["росомаха", "выхрест", "гурт", "престидижитатор", "Золя"],
     author: "korulag",
     link: "https://sur-noname.livejournal.com/108427.html",
     weight: 1678,
-    date: new Date("2015, 6, 21"),
+    date: "2015-06-20T21:00:00.000Z",
     starter: {
       theme: "Заговор",
       music: "https://www.youtube.com/watch?v=H3B-q8AZnAs",
       location: "Апостольский дворец, Ватикан",
-      words: ["любовь, поцелуй, ЦРУ, Хитмэн, микробиология"],
+      words: ["любовь", "поцелуй", "ЦРУ", "Хитмэн", "микробиология"],
     },
+    
   },
   {
     id: 51,
@@ -1137,17 +1218,18 @@ const gusi = [
     music: "https://www.youtube.com/watch?v=vZCkuztj3Jg",
     theme: "Политические интриги",
     location: "деревянный биплан",
-    words: ["руль, бензобак, бюджет, президент, скандал"],
+    words: ["руль", "бензобак", "бюджет", "президент", "скандал"],
     author: "helgvar",
     link: "https://sur-noname.livejournal.com/108218.html",
     weight: 1997,
-    date: new Date("2015, 6, 20"),
+    date: "2015-06-19T21:00:00.000Z",
     starter: {
       theme: "Разная, разная боль",
       music: "https://www.youtube.com/watch?v=9C0xGB73Uuc",
       location: "берег",
-      words: ["мечта, вера, доблесть, вкус, солнце"],
+      words: ["мечта", "вера", "доблесть", "вкус", "солнце"],
     },
+    
   },
   {
     id: 52,
@@ -1159,17 +1241,18 @@ const gusi = [
     music: "https://www.youtube.com/watch?v=OkNlIWKjFAI",
     theme: "Восхождение Юпитер (не планеты, а героини)",
     location: "Вся Земля",
-    words: ["Шон Бин, примитивизм, пошлость, стрелок, Шарп"],
+    words: ["Шон Бин", "примитивизм", "пошлость", "стрелок", "Шарп"],
     author: "helgvar",
     link: "https://sur-noname.livejournal.com/107817.html",
     weight: 1998,
-    date: new Date("2015, 6, 20"),
+    date: "2015-06-19T21:00:00.000Z",
     starter: {
       theme: "мир хижинам",
       music: "https://www.youtube.com/watch?v=gE3-q-aoFZI",
       location: "Виннипег",
-      words: ["росомаха, выхрест, гурт, престидижитатор, Золя"],
+      words: ["росомаха", "выхрест", "гурт", "престидижитатор", "Золя"],
     },
+    
   },
   {
     id: 53,
@@ -1181,17 +1264,18 @@ const gusi = [
     music: "https://www.youtube.com/watch?v=It8hdsqA170#t=19",
     theme: "Вскрытие покажет",
     location: "танк",
-    words: ["армянин, синегнойка, подкалиберный, янус, пелотон"],
+    words: ["армянин", "синегнойка", "подкалиберный", "янус", "пелотон"],
     author: "korulag",
     link: "https://sur-noname.livejournal.com/107289.html",
     weight: 2022,
-    date: new Date("2015, 6, 2"),
+    date: "2015-06-01T21:00:00.000Z",
     starter: {
       theme: "Политические интриги",
       music: "https://www.youtube.com/watch?v=vZCkuztj3Jg",
       location: "деревянный биплан",
-      words: ["руль, бензобак, бюджет, президент, скандал"],
+      words: ["руль", "бензобак", "бюджет", "президент", "скандал"],
     },
+    
   },
   {
     id: 54,
@@ -1203,17 +1287,18 @@ const gusi = [
     music: "http://www.youtube.com/watch?v=WREobnmYO4M#t=19",
     theme: "Планеты нетрудно упомнить",
     location: "Гонолулу",
-    words: ["плутон, альтернатива, пеньюар, релятивистский, дайсон"],
+    words: ["плутон", "альтернатива", "пеньюар", "релятивистский", "дайсон"],
     author: "korulag",
     link: "https://sur-noname.livejournal.com/107054.html",
     weight: 1730,
-    date: new Date("2015, 6, 2"),
+    date: "2015-06-01T21:00:00.000Z",
     starter: {
       theme: "Восхождение Юпитер (не планеты, а героини)",
       music: "https://www.youtube.com/watch?v=OkNlIWKjFAI",
       location: "вся Земля",
-      words: ["Шон Бин, примитивизм, пошлость, стрелок, Шарп"],
+      words: ["Шон Бин", "примитивизм", "пошлость", "стрелок", "Шарп"],
     },
+    
   },
   {
     id: 55,
@@ -1225,17 +1310,18 @@ const gusi = [
     music: "https://www.youtube.com/watch?v=nGW8Lazguis ",
     theme: "С милым рай и в шалаше",
     location: "Консульство",
-    words: ["лук, канонада, лошадь, смерть, хохот"],
+    words: ["лук", "канонада", "лошадь", "смерть", "хохот"],
     author: "patolografer",
     link: "https://sur-noname.livejournal.com/106978.html",
     weight: 1991,
-    date: new Date("2015, 5, 7"),
+    date: "2015-05-06T21:00:00.000Z",
     starter: {
       theme: "Планеты нетрудно упомнить",
       music: "http://www.youtube.com/watch?v=WREobnmYO4M#t=19",
       location: "Гонолулу",
-      words: ["плутон, альтернатива, пеньюар, релятивистский, дайсон"],
+      words: ["плутон", "альтернатива", "пеньюар", "релятивистский", "дайсон"],
     },
+    
   },
   {
     id: 56,
@@ -1247,17 +1333,18 @@ const gusi = [
     music: "https://www.youtube.com/watch?v=UoMX-w1rQlU",
     theme: "Он под деревом сидит",
     location: "Орбитальная станция",
-    words: ["лукошко, семечки, подосиновик, рыжий, доктор"],
+    words: ["лукошко", "семечки", "подосиновик", "рыжий", "доктор"],
     author: "patolografer",
     link: "https://sur-noname.livejournal.com/106601.html",
     weight: 1999,
-    date: new Date("2015, 5, 7"),
+    date: "2015-05-06T21:00:00.000Z",
     starter: {
       theme: "Вскрытие покажет",
       music: "https://www.youtube.com/watch?v=It8hdsqA170#t=19",
       location: "танк",
-      words: ["армянин,синегнойка,подкалиберный,янус, пелотон"],
+      words: ["армянин,синегнойка,подкалиберный,янус", "пелотон"],
     },
+    
   },
   {
     id: 57,
@@ -1269,50 +1356,19 @@ const gusi = [
     music: "https://music.yandex.ru/album/1893023/track/17198840",
     theme: "на самом деле",
     location: "ну это самое",
-    words: ["короче, как бы, типа, ваще, угарно"],
+    words: ["короче", "как бы", "типа", "ваще", "угарно"],
     author: "helgvar",
     link: "https://sur-noname.livejournal.com/106263.html",
     weight: 0,
-    date: new Date("2015, 2, 21"),
+    date: "2015-02-20T21:00:00.000Z",
     starter: {
       theme: "С милым рай и в шалаше",
       music: "https://www.youtube.com/watch?v=nGW8Lazguis",
       location: "Консульство",
-      words: ["лук, канонада, лошадь, смерть, хохот"],
+      words: ["лук", "канонада", "лошадь", "смерть", "хохот"],
     },
+    
   },
 ];
 
 export { gusi };
-
-// А - a
-// Б - b
-// В - c
-// Г - d
-// Д - e
-//https://sur-noname.livejournal.com/?skip=110
-
-// year, month, day
-
-/* {
-  id: 0,
-  branch: "",
-  parent: "",
-  child: "",
-  index: 0,
-  title: "",
-  music: "",
-  theme: "",
-  location: "",
-  words: [""],
-  author: "",
-  link: "",
-  weight: 0,
-  date: new Date(""),
-  starter: {
-    theme: "",
-    music: "",
-    location: "",
-    words: [""],
-  },
-}, */
