@@ -128,12 +128,14 @@ class Card {
     const openBtn = this._card.querySelector(".card__label-button");
     const mainCard = this._card.querySelector(".card__main");
     const pBtn = this._card.querySelector(".card__nav-button_parent");
+    const cBtn = this._card.querySelector(".card__nav-button_child");
 
     openBtn.addEventListener("click", () => {
       openBtn.classList.toggle("card__label-button_close");
       mainCard.classList.toggle("card__main_visible");
     });
-    pBtn.addEventListener("click", () => this._idMethod(this._id));
+    pBtn.addEventListener("click", () => this._idMethod(this._id, true));
+    cBtn.addEventListener("click", () => this._idMethod(this._id, false));
   }
 }
 

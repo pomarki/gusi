@@ -1,6 +1,7 @@
 import { classesYears } from "./const.js";
 import { cardsContainer } from "./const.js";
 import { Card } from "../conponents/Card.js";
+import { gusi } from "../date/myDate.js";
 
 const byField = (field) => {
   return (a, b) => (a[field] > b[field] ? -1 : 1);
@@ -71,9 +72,6 @@ const renderCards = (arr, container, cardClass) => {
 
   const linkClass = getCardLinkClass(parsedArr, linkItems);
 
-  const familyOne = filterChild(57, parsedArr, false);
-  console.log(familyOne);
-
   parsedArr
     .sort(byField("date"))
     .sort(byField("id"))
@@ -81,7 +79,7 @@ const renderCards = (arr, container, cardClass) => {
       item["inClass"] = linkClass[0][index];
       item["outClass"] = linkClass[1][index];
       item["acrossClass"] = linkClass[2][index];
-      item["idMethod"] = foo;
+      item["idMethod"] = renderFamily;
       item["yearClass"] = getYerarsClass(
         item.id,
         yearsItems[item.date.getFullYear()],
@@ -242,11 +240,22 @@ const filterChild = (id, arr, findParent) => {
       } else {
         return;
       }
-
-    })
+    });
   }
 
   return family;
+};
+
+const renderFamily = (id, type) => {
+  let filteredArr = filterChild(id, gusi, type);
+
+  cardsContainer.innerHTML = "";
+
+  filteredArr.forEach((item) => {
+    const cardElement = new Card(item);
+    const cardItem = cardElement.generateCard();
+    cardsContainer.append(cardItem);
+  });
 };
 
 export {
