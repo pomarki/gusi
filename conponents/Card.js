@@ -1,5 +1,5 @@
 import { letters } from "../scripts/const.js";
-import { Rect } from "./Rect.js";
+
 class Card {
   constructor(options) {
     this._id = options.id;
@@ -134,8 +134,8 @@ class Card {
       openBtn.classList.toggle("card__label-button_close");
       mainCard.classList.toggle("card__main_visible");
     });
-    pBtn.addEventListener("click", () => this._idMethod(this._id, true));
-    cBtn.addEventListener("click", () => this._idMethod(this._id, false));
+    cBtn.addEventListener("click", () => this._idMethod(this._id, true));
+    pBtn.addEventListener("click", () => this._idMethod(this._id, false));
   }
 }
 

@@ -1,5 +1,5 @@
 import { classesYears } from "./const.js";
-import { cardsContainer } from "./const.js";
+import { cardsContainer, nullCard } from "./const.js";
 import { Card } from "../conponents/Card.js";
 import { gusi } from "../date/myDate.js";
 
@@ -252,7 +252,9 @@ const renderFamily = (id, type) => {
   cardsContainer.innerHTML = "";
 
   filteredArr.forEach((item) => {
-    const cardElement = new Card(item);
+    let currentItem;
+    item === null ? currentItem = nullCard : currentItem = item
+    const cardElement = new Card(currentItem);
     const cardItem = cardElement.generateCard();
     cardsContainer.append(cardItem);
   });

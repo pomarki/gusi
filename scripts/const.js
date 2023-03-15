@@ -25,6 +25,34 @@ const classesYears = {
   single: "card__date_single",
 };
 
+const nullCard = {
+  id: -1,
+  branch: "U",
+  parent: "",
+  child: "",
+  index: "\u221E",
+  title: "НЕТ у меня тятьки",
+  music: "нет музыки",
+  theme: "нет темы",
+  location: "нигде",
+  words: ["нет", "no", "нi", "nie", "いいえ"],
+  author: "Никто",
+  link: "нет",
+  weight: 0,
+  date: new Date("2022, 2, 24"),
+  inClass: null,
+  outClass: null,
+  acrossClass: [["A"], ["A"], ["A"]],
+  idMethod: () => {console.log("click!")},
+  yearClass: null,
+  starter: {
+    theme: "нет",
+    music: "нет",
+    location: "нет",
+    words: ["ಸಂ", "Не", "नहीं", "NO", "не"],
+  },
+};
+
 export {
   classesYears,
   letters,
@@ -36,4 +64,5 @@ export {
   letterArr,
   titleWords,
   headerTitle,
+  nullCard,
 };

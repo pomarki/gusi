@@ -51,6 +51,10 @@
   background-color: var(--rose);
 }
 
+.card__label_U {
+  background-color: var(--gray);
+}
+
 .card__label-marker {
   margin: 0;
   font-style: normal;
@@ -122,6 +126,10 @@
   background-color: var(--rose);
 }
 
+.card__title_U {
+  background-color: var(--gray);
+}
+
 .card__title-link {
   font-style: normal;
   font-weight: 400;
@@ -160,6 +168,10 @@
 
 .card__numbers_X {
   background-color: var(--rose);
+}
+
+.card__numbers_U {
+  background-color: var(--gray);
 }
 
 .card__numbers-item {
