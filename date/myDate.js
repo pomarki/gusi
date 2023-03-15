@@ -493,7 +493,7 @@ const gusi = [
     index: 0,
     title: "Волосы",
     music: "нет",
-    theme: "нет",
+    theme: "отсутствует",
     location: "нет",
     words: ["нет"],
     author: "kprl__tot",

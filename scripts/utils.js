@@ -55,10 +55,6 @@ const parserWordsArr = (arr) => {
   return result;
 };
 
-const foo = (id) => {
-  console.log(id);
-};
-
 const renderCards = (arr, container, cardClass) => {
   container.innerHTML = "";
 
@@ -241,6 +237,10 @@ const filterChild = (id, arr, findParent) => {
         return;
       }
     });
+
+    if (family.length === 1) {
+      family.push(null);
+    }
   }
 
   return family;
@@ -253,7 +253,7 @@ const renderFamily = (id, type) => {
 
   filteredArr.forEach((item) => {
     let currentItem;
-    item === null ? currentItem = nullCard : currentItem = item
+    item === null ? (currentItem = nullCard) : (currentItem = item);
     const cardElement = new Card(currentItem);
     const cardItem = cardElement.generateCard();
     cardsContainer.append(cardItem);

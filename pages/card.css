@@ -223,12 +223,14 @@
 }
 
 .card__nav-button_parent {
-  background: no-repeat url("../images/papa.svg");
+  /* background: no-repeat url("../images/papa.svg"); */
+  background: no-repeat url(../images/up-btn.svg);
   margin-bottom: 35px;
 }
 
 .card__nav-button_child {
-  background: no-repeat url("../images/child.svg");
+  /* background: no-repeat url("../images/child.svg"); */
+  background: no-repeat url(../images/down-btn.svg);
 }
 
 .card__values {
