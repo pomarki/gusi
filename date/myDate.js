@@ -45,7 +45,7 @@ const gusi = [
   },
   {
     id: 2,
-    branch: "C",
+    branch: "B",
     parent: 3,
     child: "",
     index: 109,

@@ -68,8 +68,6 @@ const renderCards = (arr, container, cardClass) => {
 
   const linkClass = getCardLinkClass(parsedArr, linkItems);
 
-  /* console.log(linkClass) */
-
   parsedArr
     .sort(byField("date"))
     .sort(byField("id"))
@@ -190,7 +188,7 @@ const findCard = (cardId, arr) => {
 const filterChild = (id, arr, findParent) => {
   let family = [];
 
-  let activeCard = findCard(id, arr)[0]; // это карта, чей id упал в запрос
+  let activeCard = findCard(id, arr)[0];
 
   let receivedDNA =
     activeCard.theme + activeCard.location + activeCard.words.join();
@@ -254,18 +252,27 @@ const getFamilyClasses = (arr) => {
 
   arr.forEach((item, index) => {
     //папе out
-    if (item === null || index === 0) {
+    if (item === null || (index === 0 && max > 0)) {
       result.inClass.push(null);
       result.outClass.push("C");
       result.acrossClass.push([null]);
       return;
     }
     //детям in
+
+    if (max === 0) {
+      result.inClass.push(null);
+      result.outClass.push(null);
+      result.acrossClass.push([null]);
+      return;
+    }
     result.inClass.push("C");
     result.outClass.push(null);
     if (max > 1 && index < max) {
       result.acrossClass.push(["C"]);
-    } else {result.acrossClass.push([null])}
+    } else {
+      result.acrossClass.push([null]);
+    }
   });
 
   return result;
@@ -274,8 +281,6 @@ const getFamilyClasses = (arr) => {
 const renderFamily = (id, type) => {
   let filteredArr = filterChild(id, gusi, type);
   let familyClasses = getFamilyClasses(filteredArr);
-
-  console.log(familyClasses);
 
   cardsContainer.innerHTML = "";
 
