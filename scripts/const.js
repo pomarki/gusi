@@ -31,7 +31,7 @@ const nullCard = {
   parent: "",
   child: "",
   index: "\u221E",
-  title: "НЕТ у меня тятьки",
+  title: "мама сказала, что мой папа - лётчик",
   music: "нет музыки",
   theme: "нет темы",
   location: "нигде",

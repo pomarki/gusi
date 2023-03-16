@@ -13,33 +13,35 @@
   display: grid;
   grid-template-columns: 41px;
   grid-template-rows: 20px auto 30px;
+  
 }
 
 .card__lines-in {
   position: relative;
   box-sizing: border-box;
-  padding: 0 10px 0 10px;
+  padding: 0 10px 0 0;
   display: grid;
-  grid-template-columns: repeat(5, 1px);
+  grid-template-columns: repeat(7, 1px);
   grid-template-rows: auto;
   gap: 4px;
 }
 
 .card__lines-line {
   box-sizing: border-box;
-  padding: 0 10px 0 10px;
+  padding: 0 10px 0 0;
   display: grid;
-  grid-template-columns: repeat(5, 1px);
+  grid-template-columns: repeat(7, 1px);
   grid-template-rows: auto;
   gap: 4px;
+  
 }
 
 .card__lines-out {
   position: relative;
   box-sizing: border-box;
-  padding: 0 10px 0 10px;
+  padding: 0 10px 0 0;
   display: grid;
-  grid-template-columns: repeat(5, 1px);
+  grid-template-columns: repeat(7, 1px);
   grid-template-rows: auto;
   gap: 4px;
 }
@@ -54,11 +56,31 @@
   grid-auto-rows: max-content;
 }
 
-.cards__line-E {
+.cards__line-G{
   display: none;
   width: 1px;
   grid-column-start: 1;
   grid-column-end: 2;
+  height: 100%;
+
+  background-color: var(--fuchsia);
+}
+
+.cards__line-F{
+  display: none;
+  width: 1px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  height: 100%;
+
+  background-color: var(--yellow);
+}
+
+.cards__line-E {
+  display: none;
+  width: 1px;
+  grid-column-start: 3;
+  grid-column-end: 4;
   height: 100%;
 
   background-color: var(--blue);
@@ -67,8 +89,8 @@
 .cards__line-D {
   display: none;
   width: 1px;
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 5;
   height: 100%;
 
   background-color: var(--green);
@@ -77,8 +99,8 @@
 .cards__line-C {
   display: none;
   width: 1px;
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-start: 5;
+  grid-column-end: 6;
   height: 100%;
   background-color: var(--orange);
 }
@@ -86,8 +108,8 @@
 .cards__line-B {
   display: none;
   width: 1px;
-  grid-column-start: 4;
-  grid-column-end: 5;
+  grid-column-start: 6;
+  grid-column-end: 7;
   height: 100%;
   background-color: var(--turquoise);
 }
@@ -95,8 +117,8 @@
 .cards__line-A {
   display: none;
   width: 1px;
-  grid-column-start: 5;
-  grid-column-end: 6;
+  grid-column-start: 7;
+  grid-column-end: 8;
   height: 100%;
   background-color: var(--light-green);
 }

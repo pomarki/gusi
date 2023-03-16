@@ -67,6 +67,7 @@ const renderCards = (arr, container, cardClass) => {
   const linkItems = getCardLinks(parsedArr);
 
   const linkClass = getCardLinkClass(parsedArr, linkItems);
+  console.log(linkClass)
 
   parsedArr
     .sort(byField("date"))
