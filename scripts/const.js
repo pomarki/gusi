@@ -40,9 +40,9 @@ const nullCard = {
   link: "нет",
   weight: 0,
   date: new Date("2022, 2, 24"),
-  inClass: null,
-  outClass: null,
-  acrossClass: [["A"], ["A"], ["A"]],
+  /* inClass: null,
+  outClass: "C",
+  acrossClass: [null], */
   idMethod: () => {console.log("click!")},
   yearClass: null,
   starter: {

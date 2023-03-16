@@ -67,7 +67,8 @@ const renderCards = (arr, container, cardClass) => {
   const linkItems = getCardLinks(parsedArr);
 
   const linkClass = getCardLinkClass(parsedArr, linkItems);
-  console.log(linkClass)
+
+  /* console.log(linkClass) */
 
   parsedArr
     .sort(byField("date"))
@@ -247,14 +248,43 @@ const filterChild = (id, arr, findParent) => {
   return family;
 };
 
+const getFamilyClasses = (arr) => {
+  let result = { inClass: [], outClass: [], acrossClass: [] };
+  let max = arr.length - 1; // 2
+
+  arr.forEach((item, index) => {
+    //папе out
+    if (item === null || index === 0) {
+      result.inClass.push(null);
+      result.outClass.push("C");
+      result.acrossClass.push([null]);
+      return;
+    }
+    //детям in
+    result.inClass.push("C");
+    result.outClass.push(null);
+    if (max > 1 && index < max) {
+      result.acrossClass.push(["C"]);
+    } else {result.acrossClass.push([null])}
+  });
+
+  return result;
+};
+
 const renderFamily = (id, type) => {
   let filteredArr = filterChild(id, gusi, type);
+  let familyClasses = getFamilyClasses(filteredArr);
+
+  console.log(familyClasses);
 
   cardsContainer.innerHTML = "";
 
-  filteredArr.forEach((item) => {
+  filteredArr.forEach((item, index) => {
     let currentItem;
     item === null ? (currentItem = nullCard) : (currentItem = item);
+    currentItem["inClass"] = familyClasses.inClass[index];
+    currentItem["outClass"] = familyClasses.outClass[index];
+    currentItem["acrossClass"] = familyClasses.acrossClass[index];
     const cardElement = new Card(currentItem);
     const cardItem = cardElement.generateCard();
     cardsContainer.append(cardItem);
